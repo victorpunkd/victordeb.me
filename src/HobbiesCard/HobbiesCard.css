@@ -1,0 +1,81 @@
+.image {
+  height: 18vh;
+  width: 9vw;
+}
+
+.hobby {
+  color: #e2257d;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.description {
+  color: gray;
+  font-size: 0.8vw;
+}
+
+.buttonHobbie {
+  margin-top: 4%;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5%;
+  font-family: "Spinnaker", sans-serif;
+  transition: box-shadow 0.3s, font-size 0.3s;
+  background-image: linear-gradient(
+    to right,
+    #fd898e,
+    #f97a91,
+    #f26c96,
+    #e95f9d,
+    #dd54a5
+  );
+}
+
+.buttonHobbie:hover {
+  box-shadow: 0px 20px 15px -10px #f4b5da;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .image {
+    height: 15vh;
+    width: 27vw;
+  }
+
+  .hobby {
+    font-size: 2.5vw;
+  }
+
+  .description {
+    font-size: 1.5vw;
+  }
+
+  .buttonHobbie {
+    font-size: 2vw;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .image {
+    height: 20vh;
+    width: 35vw;
+  }
+
+  .hobby {
+    font-size: 7vw;
+  }
+
+  .description {
+    font-size: 5vw;
+  }
+
+  .buttonHobbie {
+    font-size: 5vw;
+  }
+}

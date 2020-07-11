@@ -1,0 +1,87 @@
+.customCard {
+  width: 100%;
+  padding: 2% 2%;
+  border-radius: 1vw;
+  box-shadow: 5px 5px 10px #bdc3c7;
+  margin-top: 3%;
+}
+
+.jobHeading {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5vw;
+  color: purple;
+  font-weight: 400;
+}
+
+.timeline {
+  clear: both;
+  font-family: "Nunito", sans-serif;
+  font-size: 1vw;
+  color: black;
+  border-bottom: 4px solid purple;
+}
+
+.jobDescription {
+  clear: both;
+  text-align: left;
+  padding-right: 5%;
+  font-size: 1vw;
+  line-height: 1.3;
+  color: black;
+}
+
+.images {
+  width: 9vw;
+  height: 9vw;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .jobHeading {
+    font-size: 3.5vw;
+  }
+
+  .timeline {
+    font-size: 2.5vw;
+  }
+
+  .jobDescription {
+    font-size: 2.5vw;
+  }
+
+  .images {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .jobHeading {
+    font-size: 3.5vw;
+  }
+
+  .timeline {
+    margin-top: 2%;
+    font-size: 2.5vw;
+    margin-bottom: 2%;
+  }
+
+  .jobDescription {
+    font-size: 3.2vw;
+    line-height: 1.5;
+  }
+
+  .images {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .customCard {
+    padding: 2% 2%;
+    box-shadow: 5px 5px 10px #bdc3c7;
+    margin-top: 6%;
+  }
+}

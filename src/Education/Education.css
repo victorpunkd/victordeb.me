@@ -1,0 +1,89 @@
+.contentInfoEdu {
+  margin-left: 12%;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
+
+.verticalMiddleEducation {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.headerTextEdu {
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "Righteous", cursive;
+  color: #757575;
+}
+
+.tagLineEdu {
+  color: gray;
+  font-size: 1.5vw;
+}
+
+.sideImageEdu {
+  width: 60%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lesPaul_2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .w3-half {
+    width: 100% !important;
+  }
+
+  .contentInfoEdu {
+    margin-top: 10%;
+  }
+
+  .headerTextEdu {
+    font-size: 10vw;
+  }
+
+  .tagLineEdu {
+    font-size: 3.8vw !important;
+  }
+
+  .contentInfoEdu {
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .sideImageEdu {
+    display: none;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .contentInfoEdu {
+    margin-top: 10%;
+  }
+
+  .headerTextEdu {
+    font-size: 10vw;
+  }
+
+  .tagLineEdu {
+    font-size: 3.8vw !important;
+  }
+
+  .contentInfoEdu {
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+}

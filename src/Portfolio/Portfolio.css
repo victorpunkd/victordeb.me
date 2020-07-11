@@ -1,0 +1,138 @@
+.contentInfoFolio {
+  margin-left: 12%;
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
+
+.verticalMiddlePortfolio {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.headerTextPortfolio {
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "Righteous", cursive;
+  color: #757575;
+}
+
+.tagLinePortfolio {
+  color: #74c3c8;
+  font-size: 1.5vw;
+}
+
+.sideImagePortfolio {
+  width: 80%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lenon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.navButton {
+  font-size: 1.2vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 1%;
+  font-family: "Spinnaker", sans-serif;
+  transition: font-size 0.3s, box-shadow 0.3s;
+  background-image: linear-gradient(
+    to right,
+    #fd898e,
+    #f97a91,
+    #f26c96,
+    #e95f9d,
+    #dd54a5
+  );
+}
+
+.navButton:hover {
+  font-size: 1.3vw;
+  box-shadow: 0px 30px 15px -20px #f4b5da;
+}
+
+.disableNavButton {
+  background-image: linear-gradient(to right, #b0b0b0, #888888);
+  cursor: no-drop;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .w3-half {
+    width: 100% !important;
+  }
+
+  .headerTextPortfolio {
+    font-size: 12vw;
+  }
+
+  .tagLinePortfolio {
+    font-size: 3.8vw !important;
+  }
+
+  .contentInfoFolio {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .navButton {
+    margin-top: 2%;
+    font-size: 4.5vw;
+  }
+
+  .navButton:hover {
+    font-size: 4.9vw;
+  }
+
+  .sideImagePortfolio {
+    display: none;
+  }
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .headerTextPortfolio {
+    font-size: 12vw;
+  }
+
+  .tagLinePortfolio {
+    font-size: 3.8vw !important;
+  }
+
+  .contentInfoFolio {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .verticalMiddlePortfolio {
+    margin: 0;
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+  }
+
+  .navButton {
+    margin-top: 5%;
+    font-size: 4.5vw;
+  }
+
+  .navButton:hover {
+    font-size: 4.9vw;
+  }
+}

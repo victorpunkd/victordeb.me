@@ -1,0 +1,174 @@
+.contentInfo {
+  padding: 0% 5%;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.verticalCenter {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.myName {
+  font-size: 7vw;
+  font-weight: 600;
+  font-family: "Righteous", cursive;
+  color: #757575;
+}
+
+.myProfession {
+  font-size: 2vw;
+  font-family: "Righteous", cursive;
+  font-weight: 600;
+  margin-top: -3%;
+  color: #e2257d;
+}
+
+.myIntro {
+  font-size: 1.2vw;
+  color: #a9a9a9;
+  padding: 0% 8%;
+}
+
+.buttonContact {
+  font-size: 1.7vw;
+  margin-top: 4%;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 2%;
+  font-family: "Spinnaker", sans-serif;
+  transition: font-size 0.3s, box-shadow 0.3s;
+  background-image: linear-gradient(
+    to right,
+    #fd898e,
+    #f97a91,
+    #f26c96,
+    #e95f9d,
+    #dd54a5
+  );
+}
+
+.buttonContact:hover {
+  font-size: 1.8vw;
+  box-shadow: 0px 30px 15px -20px #f4b5da;
+}
+
+.downloadResume {
+  font-size: 1.2vw;
+  margin-top: 1%;
+  text-decoration: none;
+  color: gray;
+  transition: border-bottom 0.3s;
+  border-bottom: 1px solid rgb(211, 211, 211, 0);
+}
+
+.downloadResume:hover {
+  border-bottom: 1px solid rgb(211, 211, 211, 1);
+  cursor: pointer;
+}
+
+.socialIconsDiv {
+  margin-top: 4%;
+  margin-left: -9%;
+}
+
+.socialIcon {
+  font-size: 4vw;
+  margin-left: 9%;
+  cursor: pointer;
+  transition: color 0.3s, font-size 0.3s;
+  color: #757575;
+}
+
+.socialIcon:hover {
+  color: #e2257d;
+}
+
+.sideBackgroundImage {
+  width: 70%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/me.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .contentInfo {
+    width: 100%;
+  }
+
+  .myName {
+    font-size: 15vw !important;
+  }
+
+  .myProfession {
+    font-size: 5vw !important;
+  }
+
+  .myIntro {
+    font-size: 4vw !important;
+  }
+
+  .buttonContact {
+    font-size: 6vw !important;
+  }
+
+  .buttonContact:hover {
+    font-size: 6.5vw !important;
+  }
+
+  .downloadResume {
+    font-size: 4vw !important;
+  }
+
+  .socialIcon {
+    font-size: 12vw !important;
+  }
+
+  .sideImage {
+    display: none;
+  }
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .myName {
+    font-size: 15vw !important;
+  }
+
+  .myProfession {
+    font-size: 5vw !important;
+  }
+
+  .myIntro {
+    font-size: 4vw !important;
+  }
+
+  .buttonContact {
+    font-size: 6vw !important;
+  }
+
+  .buttonContact:hover {
+    font-size: 6.5vw !important;
+  }
+
+  .downloadResume {
+    font-size: 4vw !important;
+  }
+
+  .socialIcon {
+    font-size: 12vw !important;
+  }
+}

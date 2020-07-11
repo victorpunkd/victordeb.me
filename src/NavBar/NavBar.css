@@ -1,0 +1,132 @@
+.navBar {
+  background-color: #30364a;
+  box-shadow: 2px 0px 20px grey;
+  width: 5vw;
+  padding: 0% 0.3%;
+  position: relative;
+}
+
+.hamburgerButton {
+  font-size: 4vw;
+}
+
+.sideBarIdentifier {
+  top: 5px;
+  color: #e2257d;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 5px;
+  }
+  50% {
+    left: 10px;
+  }
+  75% {
+    left: 5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.navBarItems {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.icon {
+  margin-top: 10px;
+  width: 4vw;
+  height: 8vh;
+}
+
+.menuItem {
+  text-decoration: none;
+  line-height: 1vh;
+  margin-top: 1vh;
+  cursor: pointer;
+  color: #afa7a7;
+  transition: color 0.3s;
+}
+
+.menuItem:hover {
+  color: white;
+}
+
+.menuIcon {
+  font-size: 2vw;
+}
+
+.menuName {
+  font-size: 0.9vw;
+}
+
+.active {
+  color: white !important;
+  cursor: no-drop;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .navBar {
+    box-shadow: 2px 0px 20px grey;
+    width: 14vw;
+    padding: 0% 0.3%;
+  }
+
+  .menuIcon {
+    font-size: 5vw;
+  }
+
+  .menuItem {
+    line-height: 1.3;
+  }
+
+  .menuName {
+    margin-top: 50px;
+    font-size: 2.7vw;
+  }
+  .icon {
+    margin-top: 10px;
+    width: 13vw;
+    height: 9vh;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .navBar {
+    box-shadow: 2px 0px 20px grey;
+    width: 15.2vw;
+    padding: 0% 0.3%;
+  }
+
+  .menuItem {
+    line-height: 0.3;
+  }
+
+  .menuIcon {
+    font-size: 5vw;
+  }
+
+  .menuName {
+    font-size: 2.7vw;
+  }
+  .icon {
+    margin-top: 10px;
+    width: 13vw;
+    height: 7vh;
+  }
+}

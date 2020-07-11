@@ -1,0 +1,93 @@
+.projectsSection {
+  margin-top: 3%;
+}
+
+.projectImage {
+  height: 20vw;
+  width: 32vw;
+}
+
+.projectName {
+  font-size: 2.5vw;
+  font-weight: 600;
+  font-family: Righteous, cursive;
+  margin-left: 5%;
+}
+
+.iconProject {
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.iconProject:hover {
+  transition: color 0.3s;
+  color: #e2257d;
+}
+
+.projectDescription {
+  font-size: 1.1vw;
+  color: gray;
+  text-align: justify;
+  width: 81%;
+  margin-left: 5%;
+  line-height: 1.4;
+}
+
+.projectTechStack {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.techImages {
+  height: 2vw;
+  width: 2vw;
+  margin-left: 2%;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .projectImage {
+    height: 40vw;
+    width: 64vw;
+  }
+
+  .projectName {
+    font-size: 7vw;
+  }
+
+  .projectDescription {
+    font-size: 4vw;
+    width: 90%;
+  }
+
+  .techImages {
+    height: 8vw;
+    width: 8vw;
+  }
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .projectImage {
+    height: 40vw;
+    width: 64vw;
+  }
+
+  .projectName {
+    font-size: 7vw;
+  }
+
+  .projectDescription {
+    font-size: 4vw;
+    width: 90%;
+  }
+
+  .techImages {
+    height: 8vw;
+    width: 8vw;
+  }
+}

@@ -1,0 +1,117 @@
+.educationCard {
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.educationContent {
+  padding: 4%;
+  border-radius: 1vw;
+}
+
+.educationPicture {
+  width: 19vw;
+  height: 16vw;
+}
+
+.educationDegree {
+  color: #e2257d;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.educationCollege {
+  color: #757575;
+  font-size: 1.2vw;
+}
+
+.educationDescription {
+  text-align: left !important;
+  margin-top: 1%;
+  font-size: 1vw;
+  color: #a9a9a9;
+  margin-bottom: 4%;
+}
+
+.buttonConvo {
+  text-decoration: none;
+  margin-left: -42%;
+  border-radius: 6px;
+  font-size: 1.4vw;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 2%;
+  font-family: "Spinnaker", sans-serif;
+  transition: font-size 0.3s, box-shadow 0.3s;
+  background-image: linear-gradient(
+    to right,
+    #fd898e,
+    #f97a91,
+    #f26c96,
+    #e95f9d,
+    #dd54a5
+  );
+}
+
+.buttonConvo:hover {
+  font-size: 1.5vw;
+  box-shadow: 0px 25px 10px -15px #f4b5da;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .educationPicture {
+    width: 40vw;
+    height: 36vw;
+  }
+
+  .educationDegree {
+    font-size: 5vw;
+  }
+
+  .educationCollege {
+    font-size: 4vw;
+  }
+
+  .educationDescription {
+    font-size: 4.5vw;
+  }
+
+  .buttonConvo {
+    font-size: 5vw;
+  }
+
+  .buttonConvo:hover {
+    font-size: 5.5vw;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .educationPicture {
+    width: 40vw;
+    height: 36vw;
+  }
+
+  .educationDegree {
+    font-size: 5vw;
+  }
+
+  .educationCollege {
+    font-size: 4vw;
+  }
+
+  .educationDescription {
+    font-size: 4.5vw;
+  }
+
+  .buttonConvo {
+    font-size: 5vw;
+  }
+
+  .buttonConvo:hover {
+    font-size: 5.5vw;
+  }
+}

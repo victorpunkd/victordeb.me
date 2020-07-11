@@ -1,0 +1,161 @@
+{
+  "tagLine": "My current tech stack, always pushing new items to the stack",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freddie.jpg",
+  "skills": [
+    {
+      "id": 1,
+      "techName": "React JS",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png",
+      "firstColor": "#53d2fa",
+      "secondColor": "#d6f1f9",
+      "percentage": "60%"
+    },
+    {
+      "id": 2,
+      "techName": "Javascript",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/javascript_logo.png",
+      "firstColor": "#f0db4f",
+      "secondColor": "#f7e98a",
+      "percentage": "70%"
+    },
+    {
+      "id": 3,
+      "techName": "jQuery",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif",
+      "firstColor": "#0868ab",
+      "secondColor": "#3aa8f4",
+      "percentage": "90%"
+    },
+    {
+      "id": 4,
+      "techName": "AWS",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png",
+      "firstColor": "#ff9900",
+      "secondColor": "#f9c77c",
+      "percentage": "30%"
+    },
+    {
+      "id": 5,
+      "techName": "HTML5",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/html_logo.png",
+      "firstColor": "#e54c21",
+      "secondColor": "#f48566",
+      "percentage": "80%"
+    },
+    {
+      "id": 6,
+      "techName": "CSS3",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/css_logo.png",
+      "firstColor": "#0868ab",
+      "secondColor": "#68b9f2",
+      "percentage": "40%"
+    }
+  ],
+  "labels": [
+    "Q3 2016",
+    "Q4 2016",
+    "Q1 2017",
+    "Q2 2017",
+    "Q3 2017",
+    "Q4 2017",
+    "Q1 2018",
+    "Q2 2018",
+    "Q3 2018",
+    "Q4 2018",
+    "Q1 2019",
+    "Q2 2019",
+    "Q3 2019"
+  ],
+  "lineData": [
+    {
+      "label": "React JS",
+      "backgroundColor": "transparent",
+      "borderColor": "#53d2fa",
+      "pointBorderColor": "#53d2fa",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#53d2fa",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [0, 0, 10, 15, 20, 40, 50, 65, 75, 80, 95, 99, 99]
+    },
+    {
+      "label": "JavaScript",
+      "backgroundColor": "transparent",
+      "borderColor": "#f0db4f",
+      "pointBorderColor": "#f0db4f",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#f0db4f",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [35, 20, 25, 30, 35, 37, 42, 60, 65, 75, 70, 90, 80]
+    },
+    {
+      "label": "CSS",
+      "backgroundColor": "transparent",
+      "borderColor": "#2f5d9d",
+      "pointBorderColor": "#2f5d9d",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#2f5d9d",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [50, 50, 75, 50, 85, 78, 82, 80, 90, 60, 60, 70, 70]
+    },
+    {
+      "label": "HTML",
+      "backgroundColor": "transparent",
+      "borderColor": "#dd4b25",
+      "pointBorderColor": "#dd4b25",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#dd4b25",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85]
+    },
+    {
+      "label": "AWS",
+      "backgroundColor": "transparent",
+      "borderColor": "#e67e22",
+      "pointBorderColor": "#e67e22",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#e67e22",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [0, 0, 5, 10, 15, 20, 25, 28, 30, 35, 40, 60, 70]
+    },
+    {
+      "label": "jQuery",
+      "backgroundColor": "transparent",
+      "borderColor": "#0868ab",
+      "pointBorderColor": "#0868ab",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#0868ab",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [100, 97, 80, 65, 85, 90, 50, 40, 30, 20, 10, 5, 5]
+    }
+  ]
+}

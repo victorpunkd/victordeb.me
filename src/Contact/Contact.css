@@ -1,0 +1,217 @@
+.contentInfoContact {
+  margin-left: 12%;
+  width: 100%;
+  text-align: center;
+}
+
+.headerTextContact {
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "Righteous", cursive;
+  color: #757575;
+}
+
+.tagLineContact {
+  color: #642520;
+  font-size: 1.5vw;
+}
+
+.commentBox {
+  color: white;
+  margin-top: 3%;
+  margin-left: 10%;
+  width: 23vw;
+  height: 64vh;
+  border-radius: 1vw;
+  background-color: #72e79f;
+  box-shadow: 0px 30px 10px -20px #b4f3cc;
+}
+
+.heading {
+  text-align: left;
+  /* font-family: "Ubuntu", sans-serif; */
+  margin-left: 5%;
+  font-size: 2vw;
+}
+
+.comment {
+  width: 60%;
+  text-align: left;
+  /* font-family: "Ubuntu", sans-serif; */
+  margin-left: 5%;
+  font-size: 1.7vw;
+}
+
+.overlapBox {
+  color: white;
+  font-size: 2vw;
+  /* font-family: "Ubuntu", sans-serif; */
+  width: 30vw;
+  height: 33vh;
+  border-radius: 1vw;
+  background-color: #f77b74;
+  position: fixed;
+  z-index: 10;
+  top: 15.5vw;
+  left: 27vw;
+  box-shadow: 5px 5px 10px gray;
+  padding-left: 1%;
+}
+
+.clickCopy {
+  cursor: pointer;
+  transition: font-size 0.1s;
+}
+
+.clickCopy:active {
+  font-size: 1.2vw;
+}
+
+.tooltipText {
+  position: absolute;
+  left: 0;
+  bottom: 29px;
+  background-color: antiquewhite;
+  transition: background-color 0.2s;
+  border-radius: 1vw;
+  padding: 5px 5px;
+  font-size: 1vw;
+  color: #757575;
+}
+
+.changeBack {
+  background-color: #91e5b1 !important;
+  color: white;
+}
+
+.socialLinks {
+  color: white;
+  font-size: 3vw;
+  padding-left: 3%;
+  transform: color 0.3s;
+}
+
+.sideImageContact {
+  width: 60%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/bowie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .w3-half {
+    width: 100% !important;
+  }
+
+  .headerTextContact {
+    font-size: 10vw;
+  }
+
+  .tagLineContact {
+    font-size: 3.8vw !important;
+  }
+
+  .commentBox {
+    margin-top: 3%;
+    margin-left: 0%;
+    width: 63vw;
+    height: 64vh;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .comment {
+    font-size: 5vw;
+  }
+
+  .overlapBox {
+    font-size: 4vw;
+    width: 50vw;
+    height: 25vh;
+    top: 55vw;
+    left: 45vw;
+    padding-left: 3%;
+  }
+
+  .tooltipText {
+    font-size: 3vw;
+  }
+
+  .socialLinks {
+    font-size: 5vw;
+    padding-left: 3%;
+  }
+
+  .contentInfoContact {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .sideImageContact {
+    display: none;
+  }
+}
+
+/* For mobile screens*/
+@media screen and (max-width: 600px) {
+  .headerTextContact {
+    font-size: 10vw;
+  }
+
+  .tagLineContact {
+    font-size: 3.8vw !important;
+  }
+
+  .conatctBody {
+    margin-top: 10%;
+  }
+
+  .commentBox {
+    margin-top: 3%;
+    margin-left: 0%;
+    width: 63vw;
+    height: 350px;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .comment {
+    font-size: 5vw;
+  }
+
+  .overlapBox {
+    font-size: 4vw;
+    width: 50vw;
+    height: 130px;
+    top: 250px;
+    left: 45vw;
+    padding-left: 3%;
+  }
+
+  .tooltipText {
+    font-size: 3vw;
+  }
+
+  .socialLinks {
+    font-size: 5vw;
+    padding-left: 3%;
+  }
+
+  .contentInfoContact {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+}

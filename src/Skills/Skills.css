@@ -1,0 +1,117 @@
+.contentInfoSkills {
+  margin-left: 12%;
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.verticalMiddleSkills {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.headerText {
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "Righteous", cursive;
+  color: #757575;
+}
+
+.tagLine {
+  color: #ed6b69;
+  font-size: 1.5vw;
+}
+
+.techChart {
+  margin-top: 3%;
+}
+
+.sideImageSkills {
+  width: 75%;
+  height: 100vh;
+}
+
+.sideBackgroundImageSkills {
+  width: 80%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freddie.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* All media queries */
+
+/* for tabs and ipads*/
+@media screen and (max-width: 1050px) and (min-width: 601px) {
+  .w3-half {
+    width: 100% !important;
+  }
+
+  .headerText {
+    font-size: 12vw;
+  }
+
+  .tagLine {
+    font-size: 3.8vw;
+  }
+
+  .techStack {
+    margin-top: 5%;
+  }
+
+  .techChart {
+    margin-top: 5%;
+  }
+
+  .contentInfoSkills {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .sideImageSkills {
+    display: none !important;
+  }
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .headerText {
+    font-size: 12vw;
+  }
+
+  .tagLine {
+    font-size: 3.8vw;
+  }
+
+  .techStack {
+    margin-top: 5%;
+  }
+
+  .techChart {
+    margin-top: 5%;
+  }
+
+  .contentInfoSkills {
+    margin-top: 10%;
+    margin-left: 0%;
+    padding: 0% 5%;
+    width: 100%;
+  }
+
+  .verticalMiddleSkills {
+    margin: 0;
+    position: relative;
+    top: 10%;
+    transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+  }
+}
