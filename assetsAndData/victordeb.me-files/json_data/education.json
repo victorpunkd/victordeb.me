@@ -1,19 +1,20 @@
 {
-	"tagLine": "College degrees I have",
-	"sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lesPaul_2.jpg",
-	"education": [{
-			"image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/college.jpg",
-			"degree": "Bachelor in Computer Application",
-			"college": "Bangalore University",
-			"description": "I have done my Bachelors degree in computer application from Bangalore University, Bangalore, India. It’s 3 years of regular undergraduate degree course including all the basic subjects of computer application like C, Data Structures,  System Programming, Web programming, Software Engineering, etc.",
-			"certificateImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/bachelorCertificate.jpg"
-		},
-		{
-			"image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/university.jpg",
-			"degree": "Master in Computer Application",
-			"college": "West Bengal University of Technology",
-			"description": "I have done my Masters degree in computer application from West Bengal University of Technology, Kolkata, India. It’s 3 years of regular postgraduate degree course including all the advanced subjects of computer application like Artificial Intelligence, Automata, Advance DBMS, etc.",
-			"certificateImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/mastersCertificate.jpg"
-		}
-	]
+  "tagLine": "College degrees I have",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lesPaul_2.jpg",
+  "education": [
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/college.jpg",
+      "degree": "Bachelor in Computer Application",
+      "college": "Bangalore University",
+      "description": "I have done my Bachelors degree in computer application from Bangalore University, Bangalore, India. It’s 3 years of regular undergraduate degree course including all the basic subjects of computer application like C, Data Structures,  System Programming, Web programming, Software Engineering, etc.",
+      "certificateImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/bachelorCertificate.jpg"
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/university.jpg",
+      "degree": "Master in Computer Application",
+      "college": "West Bengal University of Technology",
+      "description": "I have done my Masters degree in computer application from West Bengal University of Technology, Kolkata, India. It’s 3 years of regular postgraduate degree course including all the advanced subjects of computer application like Artificial Intelligence, Automata, Advance DBMS, etc.",
+      "certificateImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/mastersCertificate.jpg"
+    }
+  ]
 }

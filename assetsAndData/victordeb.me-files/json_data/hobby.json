@@ -1,53 +1,54 @@
 {
   "tagLine": "Things we do for love",
   "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/elvis.jpg",
-  "hobbies": [{
-  "id":1,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/guitar.jpg",
-  "hobby":"Playing Guitar",
-  "description":"I have been playing guitar for a long time now, one of my favorite pass time when I am relaxing.",
-  "buttonText":"Watch Video",
-  "link":"https://www.youtube.com/watch?v=VnW2WS3J23Y"
-  },
-  {
-  "id":2,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/drums.jpg",
-  "hobby":"Playing Drums",
-  "description":"Used to be a drummer in a band, had this dream to be the best drummer in the world.",
-  "buttonText":"Watch Video",
-  "link":"https://www.youtube.com/watch?v=rUbArXx_h-Y"
-  },
-  {
-  "id":3,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/music.jpg",
-  "hobby":"Listening to Music",
-  "description":"Music is like coffee to me, it makes me go on. Will work for 8 hours straight if the music plays on and on.",
-  "buttonText":"My Favorites",
-  "link":"https://open.spotify.com/playlist/6mB2ms0V66yF1WqYi6D84y"
-  },
-  {
-  "id":4,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/coding.jpg",
-  "hobby":"Coding",
-  "description":"Once I learned to code, I fell in love with it. Coding and brainstorming are what I do all day.",
-  "buttonText":"My Github",
-  "link":"https://github.com/victorpunkd"
-  },
-  {
-  "id":5,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/Books.jpg",
-  "hobby":"Reading Books",
-  "description":"I am a big fan of thriller and adventure novels, Dan Brown and J.K Rowling are 2 of my favorites.",
-  "buttonText":"See my Collection",
-  "link":"https://www.goodreads.com/review/list/98925063-victor-deb?shelf=read"
-  },
-  {
-  "id":6,
-  "image":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/movie.jpg",
-  "hobby":"Watching Movies",
-  "description":"I am a big movie buff, soon I will start a movie recommending website, need a suggestion ask me.",
-  "buttonText":"My Recomendation",
-  "link":"https://www.imdb.com/list/ls049640001/"
-  }
+  "hobbies": [
+    {
+      "id": 1,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/guitar.jpg",
+      "hobby": "Playing Guitar",
+      "description": "I have been playing guitar for a long time now, one of my favorite pass time when I am relaxing.",
+      "buttonText": "Watch Video",
+      "link": "https://www.youtube.com/watch?v=VnW2WS3J23Y"
+    },
+    {
+      "id": 2,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/drums.jpg",
+      "hobby": "Playing Drums",
+      "description": "Used to be a drummer in a band, had this dream to be the best drummer in the world.",
+      "buttonText": "Watch Video",
+      "link": "https://www.youtube.com/watch?v=rUbArXx_h-Y"
+    },
+    {
+      "id": 3,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/music.jpg",
+      "hobby": "Listening to Music",
+      "description": "Music is like coffee to me, it makes me go on. Will work for 8 hours straight if the music plays on and on.",
+      "buttonText": "My Favorites",
+      "link": "https://open.spotify.com/playlist/6mB2ms0V66yF1WqYi6D84y"
+    },
+    {
+      "id": 4,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/coding.jpg",
+      "hobby": "Coding",
+      "description": "Once I learned to code, I fell in love with it. Coding and brainstorming are what I do all day.",
+      "buttonText": "My Github",
+      "link": "https://github.com/victorpunkd"
+    },
+    {
+      "id": 5,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/Books.jpg",
+      "hobby": "Reading Books",
+      "description": "I am a big fan of thriller and adventure novels, Dan Brown and J.K Rowling are 2 of my favorites.",
+      "buttonText": "See my Collection",
+      "link": "https://www.goodreads.com/review/list/98925063-victor-deb?shelf=read"
+    },
+    {
+      "id": 6,
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/movie.jpg",
+      "hobby": "Watching Movies",
+      "description": "I am a big movie buff, soon I will start a movie recommending website, need a suggestion ask me.",
+      "buttonText": "My Recomendation",
+      "link": "https://www.imdb.com/list/ls049640001/"
+    }
   ]
 }

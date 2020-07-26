@@ -8,7 +8,7 @@
       "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png",
       "firstColor": "#53d2fa",
       "secondColor": "#d6f1f9",
-      "percentage": "60%"
+      "percentage": "70%"
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
       "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png",
       "firstColor": "#ff9900",
       "secondColor": "#f9c77c",
-      "percentage": "30%"
+      "percentage": "50%"
     },
     {
       "id": 5,
@@ -48,7 +48,15 @@
       "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/css_logo.png",
       "firstColor": "#0868ab",
       "secondColor": "#68b9f2",
-      "percentage": "40%"
+      "percentage": "60%"
+    },
+    {
+      "id": 7,
+      "techName": "Redux",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/redux_logo.jpg",
+      "firstColor": "#794bbb",
+      "secondColor": "#b791ed",
+      "percentage": "70%"
     }
   ],
   "labels": [
@@ -64,7 +72,9 @@
     "Q4 2018",
     "Q1 2019",
     "Q2 2019",
-    "Q3 2019"
+    "Q3 2019",
+    "Q4 2019",
+    "Q1 2020"
   ],
   "lineData": [
     {
@@ -80,7 +90,7 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [0, 0, 10, 15, 20, 40, 50, 65, 75, 80, 95, 99, 99]
+      "data": [0, 0, 10, 15, 20, 40, 50, 65, 75, 80, 95, 99, 99, 100, 100]
     },
     {
       "label": "JavaScript",
@@ -95,7 +105,7 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [35, 20, 25, 30, 35, 37, 42, 60, 65, 75, 70, 90, 80]
+      "data": [35, 20, 25, 30, 35, 37, 42, 60, 65, 75, 70, 90, 80, 90, 100]
     },
     {
       "label": "CSS",
@@ -110,7 +120,7 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [50, 50, 75, 50, 85, 78, 82, 80, 90, 60, 60, 70, 70]
+      "data": [50, 50, 75, 50, 85, 78, 82, 80, 90, 60, 60, 70, 70, 80, 90]
     },
     {
       "label": "HTML",
@@ -125,7 +135,7 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85]
+      "data": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 95, 95]
     },
     {
       "label": "AWS",
@@ -140,7 +150,7 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [0, 0, 5, 10, 15, 20, 25, 28, 30, 35, 40, 60, 70]
+      "data": [0, 0, 5, 10, 15, 20, 25, 28, 30, 35, 40, 60, 70, 80, 90]
     },
     {
       "label": "jQuery",
@@ -155,7 +165,22 @@
       "pointHoverBorderWidth": 2,
       "pointRadius": 1,
       "pointHitRadius": 10,
-      "data": [100, 97, 80, 65, 85, 90, 50, 40, 30, 20, 10, 5, 5]
+      "data": [100, 97, 80, 65, 85, 90, 50, 40, 30, 20, 10, 5, 5, 0, 0]
+    },
+    {
+      "label": "Redux",
+      "backgroundColor": "transparent",
+      "borderColor": "#794bbb",
+      "pointBorderColor": "#794bbb",
+      "pointBackgroundColor": "#fff",
+      "pointBorderWidth": 5,
+      "pointHoverRadius": 10,
+      "pointHoverBackgroundColor": "#794bbb",
+      "pointHoverBorderColor": "rgba(220,220,220,1)",
+      "pointHoverBorderWidth": 2,
+      "pointRadius": 1,
+      "pointHitRadius": 10,
+      "data": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20, 30, 40, 50, 60, 70]
     }
   ]
 }

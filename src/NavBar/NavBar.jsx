@@ -7,7 +7,7 @@ export class NavBar extends Component {
     super();
     this.state = {
       hideSmallMenuBar: true,
-      sideBarIdentifierVisible: true
+      sideBarIdentifierVisible: true,
     };
   }
 
@@ -15,7 +15,7 @@ export class NavBar extends Component {
     this.setState({ hideSmallMenuBar: false });
     if (this.state.sideBarIdentifierVisible)
       this.setState({
-        sideBarIdentifierVisible: !this.state.sideBarIdentifierVisible
+        sideBarIdentifierVisible: !this.state.sideBarIdentifierVisible,
       });
   };
 
@@ -38,7 +38,7 @@ export class NavBar extends Component {
               this.state.sideBarIdentifierVisible ? "" : "w3-hide"
             }`}
           >
-            <i class="fa fa-arrow-left"></i> Here is the sidebar
+            <i className="fa fa-arrow-left"></i> Here is the sidebar
           </span>
         </div>
         <nav

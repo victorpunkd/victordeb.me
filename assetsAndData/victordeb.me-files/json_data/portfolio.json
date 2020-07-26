@@ -1,131 +1,126 @@
 {
-	"tagLine": "Some of my works, which are in public",
-	"sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lenon.jpg",
-"projects": [
-{
-          "id": 1,
-          "projectName": "IconicMockTest.com",
-		  "projectColor":"#00b16a",
-          "projectLink": "https://iconicmocktest.com",
-          "githubLink": "https://github.com/victorpunkd/Iconic_Mock_Test",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/iconicScreenShot.jpg",
-          "projectDescription":
-            "Iconic Mock Test is an educational organization that helps students preparing for their exams by taking mock exams before the final exam. I helped them designing and developing their static website, which will help their students track everything online.",
-          "techStack": [
-           {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            }
-			]
-        },
-		{
-          "id": 2,
-          "projectName": "ChickenSnakeFilms.com",
-		  "projectColor":"#729500",
-          "projectLink": "https://chickensnakefilms.com",
-          "githubLink": "https://github.com/victorpunkd/Chicken_Snake_Films",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/chickenSnakeFilmsScreenShot.jpg",
-          "projectDescription":
-            "Chicken Snake Films is a video production company that shoots commercial and noncommercial videos for business organizations and personal use. I helped them designing and developing their marketing website, which will help them to make an online footprint.",
-          "techStack": [
-           {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            }
-			]
-        },
-{
-          "id": 3,
-          "projectName": "F1 Grand Prix",
-		  "projectColor":"#E5322D",
-          "projectLink": "http://bit.ly/f1grandprixracing",
-          "githubLink": "https://github.com/victorpunkd/F1_Grand_Prix",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/F1GrandPrixScreenShot.jpg",
-          "projectDescription":
-            "It’s an HTML game developed with HTML5 canvas and JavaScript. An F1 car racing game can be played inside the browser also it's touch-optimized which means it can be played in a touch screen device too. I used p5.js for sound optimization.",
-          "techStack": [
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/javascript_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/canvas_logo.jpg"
-            },
-			{
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/p5js.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            }
-          ]
+  "tagLine": "Some of my works, which are in public",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/lenon.jpg",
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "IconicMockTest.com",
+      "projectColor": "#00b16a",
+      "projectLink": "https://iconicmocktest.com",
+      "githubLink": "https://github.com/victorpunkd/iconicmocktest.com",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/iconicScreenShot.jpg",
+      "projectDescription": "Iconic Mock Test is an educational organization that helps students preparing for their exams by taking mock exams before the final exam. I helped them designing and developing their static website, which will help their students track everything online.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
         },
         {
-          "id": 4,
-          "projectName": "Linguaden.com",
-		  "projectColor":"#75c2c9",
-          "projectLink": "http://13.234.138.173/",
-          "githubLink": "https://github.com/victorpunkd/Linguaden-Front-Back-End",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/linguadenScreenShot.jpg",
-          "projectDescription":
-            "Linguaden is a cloud-based digital platform to learn foreign languages ONLINE & LIVE. I worked as a full-stack developer for them, I designed and developed there marketing and online live classes platform, to develop online classes portal I used braincert API.",
-          "techStack": [
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/net_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/sql_logo.png"
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "projectName": "Xaprika.com",
-		  "projectColor":"#e2b05c",
-          "projectLink": "http://www.Xaprika.com",
-          "githubLink": "https://github.com/victorpunkd/Xaprika-Front-Back-End",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/xaprikaScreenShot.jpg",
-          "projectDescription":
-            "Xaprika is an online food delivery startup based in Siliguri India. It’s a real-time web-based application where users can order food from restaurants near them. I worked as a full stack web developer where I designed and developed their entire website and android app.",
-           "techStack": [
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/net_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/sql_logo.png"
-            }
-          ]
-        },
-		{
-          "id": 6,
-          "projectName": "VictorDeb.me",
-		  "projectColor":"#df5b8d",
-          "projectLink": "https://victordeb.me",
-          "githubLink": "https://github.com/victorpunkd/victordeb.me",
-          "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/victorDebScreenshot.jpg",
-          "projectDescription": "This Is my portfolio website, where you can see all of my projects and all my codes in Github. It’s a fully responsive website optimized for mobile view and tab view. My work experience, my tech stack, my educational qualification all are there.",
-           "techStack": [
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
-            },
-            {
-              "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
-            }
-          ]
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
         }
       ]
-	  }
+    },
+    {
+      "id": 2,
+      "projectName": "ChickenSnakeFilms.com",
+      "projectColor": "#729500",
+      "projectLink": "https://chickensnakefilms.com",
+      "githubLink": "https://github.com/victorpunkd/chickensnakefilms.com",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/chickenSnakeFilmsScreenShot.jpg",
+      "projectDescription": "Chicken Snake Films is a video production company that shoots commercial and noncommercial videos for business organizations and personal use. I helped them designing and developing their marketing website, which will help them to make an online footprint.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "projectName": "F1 Grand Prix",
+      "projectColor": "#E5322D",
+      "projectLink": "http://bit.ly/f1grandprixracing",
+      "githubLink": "https://github.com/victorpunkd/F1_Grand_Prix",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/F1GrandPrixScreenShot.jpg",
+      "projectDescription": "It’s an HTML game developed with HTML5 canvas and JavaScript. An F1 car racing game can be played inside the browser also it's touch-optimized which means it can be played in a touch screen device too. I used p5.js for sound optimization.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/javascript_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/canvas_logo.jpg"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/p5js.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "projectName": "Linguaden.com",
+      "projectColor": "#75c2c9",
+      "projectLink": "http://13.234.138.173/",
+      "githubLink": "https://github.com/victorpunkd/Linguaden-Front-Back-End",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/linguadenScreenShot.jpg",
+      "projectDescription": "Linguaden is a cloud-based digital platform to learn foreign languages ONLINE & LIVE. I worked as a full-stack developer for them, I designed and developed there marketing and online live classes platform, to develop online classes portal I used braincert API.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/net_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/sql_logo.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "projectName": "Xaprika.com",
+      "projectColor": "#e2b05c",
+      "projectLink": "http://www.Xaprika.com",
+      "githubLink": "https://github.com/victorpunkd/Xaprika-Front-Back-End",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/xaprikaScreenShot.jpg",
+      "projectDescription": "Xaprika is an online food delivery startup based in Siliguri India. It’s a real-time web-based application where users can order food from restaurants near them. I worked as a full stack web developer where I designed and developed their entire website and android app.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/net_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/sql_logo.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "projectName": "VictorDeb.me",
+      "projectColor": "#df5b8d",
+      "projectLink": "https://victordeb.me",
+      "githubLink": "https://github.com/victorpunkd/victordeb.me",
+      "displayPicture": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/victorDebScreenshot.jpg",
+      "projectDescription": "This Is my portfolio website, where you can see all of my projects and all my codes in Github. It’s a fully responsive website optimized for mobile view and tab view. My work experience, my tech stack, my educational qualification all are there.",
+      "techStack": [
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png"
+        },
+        {
+          "logoPath": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png"
+        }
+      ]
+    }
+  ]
+}

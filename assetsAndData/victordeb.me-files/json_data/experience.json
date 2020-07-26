@@ -1,32 +1,33 @@
 {
-	"tagLine": "Businesses I have worked with",
-	"sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/SG.jpg",
-	"jobs": [{
-			"id": 1,
-			"companyName": "TATA Consultancy Services",
-			"designation": "Software Engineer",
-			"companyWebsite": "https://www.google.com/search?q=tcs",
-			"timeLine": "2016 - Present",
-			"description": "Tata Consultancy Services Limited is a multinational IT company. Having offices across 46 countries.  TCS has 400k+ employees worldwide earning 20 billion $+ as annual revenue, here I work as a software engineer where I develop web applications for various clients.",
-			"image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/officeFlatArt.jpg"
-		},
-		{
-			"id": 2,
-			"companyName": "Linguaden",
-			"designation": "Freelancer Web Developer",
-			"companyWebsite": "https://www.google.com/search?q=linguaden",
-			"timeLine": "2018 - 2019",
-			"description": "Linguaden is a cloud based digital platform startup company to learn foreign languages ONLINE & LIVE, I worked for them as a freelance web developer I developed their entire web app including online learning portal ",
-			"image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelancer.jpg"
-		},
-		{
-			"id": 3,
-			"companyName": "Xaprika",
-			"designation": "Freelancer Web Developer",
-			"companyWebsite": "https://www.google.com/search?q=xaprika",
-			"timeLine": "2017 - 2018",
-			"description": "Xaprika is an online food delivery startup based in Siliguri, India, I worked for them as a freelance web developer, I designed and developed their entire website and android app.",
-			"image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelance2.jpg"
-		}
-	]
+  "tagLine": "Businesses I have worked with",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/SG.jpg",
+  "jobs": [
+    {
+      "id": 1,
+      "companyName": "Accenture",
+      "designation": "Application Developer - Senior Analyst",
+      "companyWebsite": "https://www.google.com/search?q=accenture",
+      "timeLine": "2020 - Present",
+      "description": "Accenture plc, is an Irish-domiciled multinational professional services company. A Fortune Global 500 company, it has been incorporated in Dublin. In 2019, the company reported revenues of $43.2 billion, with more than 492,000 employees serving clients in more than 120 countries.",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/officeFlatArt.jpg"
+    },
+    {
+      "id": 2,
+      "companyName": "TATA Consultancy Services",
+      "designation": "Software Engineer",
+      "companyWebsite": "https://www.google.com/search?q=tcs",
+      "timeLine": "2016 - 2020",
+      "description": "Tata Consultancy Services Limited is a multinational IT company. Having offices across 46 countries.  TCS has 400k+ employees worldwide earning 20 billion $+ as annual revenue, here I work as a software engineer where I develop web applications for various clients.",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelancer.jpg"
+    },
+    {
+      "id": 3,
+      "companyName": "Xaprika",
+      "designation": "Freelancer Web Developer",
+      "companyWebsite": "https://www.google.com/search?q=xaprika",
+      "timeLine": "2017 - 2018",
+      "description": "Xaprika is an online food delivery startup based in Siliguri, India, I worked for them as a freelance web developer, I designed and developed their entire website and android app.",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelance2.jpg"
+    }
+  ]
 }

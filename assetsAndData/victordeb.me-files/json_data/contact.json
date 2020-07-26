@@ -1,12 +1,12 @@
 {
-      "sideImage":"https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/bowie.jpg",
-      "tagLine": "Here is how you can reach me",
-      "boxHeading": "I am open to offers.",
-      "boxDescription":"If you need to talk or you have an offer for me, I'm open to everything.",
-      "emailId": "vctrdb@gmail.com",
-      "phoneNo": "+91 98326 34856",
-      "facebookLink": "https://facebook.com/victorpunkd",
-      "instagramLink": "https://www.instagram.com/victordev.me",
-      "githubLink": "https://github.com/victorpunkd",
-      "linkedinLink": "https://www.linkedin.com/in/victordeb/"
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/bowie.jpg",
+  "tagLine": "Here is how you can reach me",
+  "boxHeading": "I am open to offers.",
+  "boxDescription": "If you need to talk or you have an offer for me, I'm open to everything.",
+  "emailId": "vctrdb@gmail.com",
+  "phoneNo": "+91 98326 34856",
+  "facebookLink": "https://facebook.com/victorpunkd",
+  "instagramLink": "https://www.instagram.com/victordev.me",
+  "githubLink": "https://github.com/victorpunkd",
+  "linkedinLink": "https://www.linkedin.com/in/victordeb/"
 }

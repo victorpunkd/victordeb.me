@@ -9,24 +9,35 @@ import Education from "./Education/Education";
 import Blogs from "./Blogs/Blogs";
 import Hobbies from "./Hobbies/Hobbies";
 import Contact from "./Contact/Contact";
+import ReactGA from "react-ga";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      activeSection: "Home"
+      activeSection: "Home",
     };
   }
 
+  componentDidMount() {
+    this.initializeReactGA();
+  }
+
+  initializeReactGA = () => {
+    ReactGA.initialize("UA-173547033-1");
+    ReactGA.pageview("/");
+    console.log("Google Analytics Activated");
+  };
+
   handleContactCickedFromHome = () => {
     this.setState({
-      activeSection: "Contact"
+      activeSection: "Contact",
     });
   };
 
-  handleNavOptionClick = navItemClicked => {
+  handleNavOptionClick = (navItemClicked) => {
     this.setState({
-      activeSection: navItemClicked
+      activeSection: navItemClicked,
     });
   };
 
