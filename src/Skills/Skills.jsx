@@ -9,7 +9,7 @@ export class Skills extends Component {
     this.state = {
       imageDisplay: "none",
       data: [],
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
@@ -19,20 +19,20 @@ export class Skills extends Component {
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/skills.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/skills.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );
@@ -62,7 +62,7 @@ export class Skills extends Component {
                 <span className="headerText">Tech Stack</span>
                 <div className="tagLine">{data.tagLine}</div>
                 <div className="techStack">
-                  {data.skills.map(skills => (
+                  {data.skills.map((skills) => (
                     <Techstack
                       key={skills.id}
                       image={skills.image}
@@ -76,7 +76,7 @@ export class Skills extends Component {
                   <Line
                     data={{
                       labels: data.labels,
-                      datasets: data.lineData
+                      datasets: data.lineData,
                     }}
                     options={{ maintainAspectRatio: true }}
                     height={window.innerWidth < 520 ? "220vh" : "120vh"}

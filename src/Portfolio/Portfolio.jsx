@@ -8,26 +8,26 @@ export class Portfolio extends Component {
     this.state = {
       currentProject: 0,
       data: [],
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/portfolio.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/portfolio.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );

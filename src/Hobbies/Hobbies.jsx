@@ -7,26 +7,26 @@ export class Hobbies extends Component {
     super();
     this.state = {
       data: [],
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/hobby.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/hobby.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );
@@ -59,7 +59,7 @@ export class Hobbies extends Component {
                 <div className="headerTextHobby">My Hobbies</div>
                 <div className="tagLineHobby">{data.tagLine}</div>
                 <div className="contentBody w3-row">
-                  {data.hobbies.map(hobby => (
+                  {data.hobbies.map((hobby) => (
                     <div className="w3-third cardHolder animated zoomIn w3-center">
                       <HobbiesCard
                         image={hobby.image}

@@ -12,7 +12,7 @@ export class Home extends Component {
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/Home.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/Home.json"
     )
       .then(res => res.json())
       .then(

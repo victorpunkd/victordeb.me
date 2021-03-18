@@ -7,26 +7,26 @@ export class Contact extends Component {
     this.state = {
       data: [],
       isLoaded: false,
-      copyText: "Click to copy the email id"
+      copyText: "Click to copy the email id",
     };
   }
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/contact.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/contact.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );

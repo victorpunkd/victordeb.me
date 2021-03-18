@@ -1,5 +1,5 @@
 {
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/hendrix.jpg",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/hendrix.jpg",
   "tagLine": "These are my blogs",
   "blogs": [
     {
@@ -9,7 +9,7 @@
       "shadowTextColor": "#f7bebe",
       "title": "How to host in aws for free 1",
       "introText": "First you need an aws account and to create you need an credit card and then blah blah blah and then more blahs",
-      "logoImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws.png",
+      "logoImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/aws.png",
       "author": "Victor Deb",
       "date": "27 February 2019",
       "readTime": "2 mins",
@@ -23,7 +23,7 @@
       "shadowTextColor": "#aef2b4",
       "title": "How to host in aws for free",
       "introText": "First you need an aws account and to create you need an credit card and then blah blah blah and then more blahs",
-      "logoImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws.png",
+      "logoImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/aws.png",
       "author": "Victor Deb",
       "date": "27 February 2019",
       "readTime": "2 mins",

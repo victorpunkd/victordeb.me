@@ -7,26 +7,26 @@ export class Education extends Component {
     super();
     this.state = {
       data: [],
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/json_data/education.json"
+      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/education.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );
@@ -59,7 +59,7 @@ export class Education extends Component {
                 <div className="headerTextEdu">Education</div>
                 <div className="tagLineEdu">{data.tagLine}</div>
                 <div className="w3-row">
-                  {data.education.map(education => (
+                  {data.education.map((education) => (
                     <EducationCard
                       image={education.image}
                       degree={education.degree}

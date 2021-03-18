@@ -1,6 +1,6 @@
 {
   "tagLine": "Businesses I have worked with",
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/SG.jpg",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/SG.jpg",
   "jobs": [
     {
       "id": 1,
@@ -9,7 +9,7 @@
       "companyWebsite": "https://www.google.com/search?q=accenture",
       "timeLine": "2020 - Present",
       "description": "Accenture plc, is an Irish-domiciled multinational professional services company. A Fortune Global 500 company, it has been incorporated in Dublin. In 2019, the company reported revenues of $43.2 billion, with more than 492,000 employees serving clients in more than 120 countries.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/officeFlatArt.jpg"
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/officeFlatArt.jpg"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "companyWebsite": "https://www.google.com/search?q=tcs",
       "timeLine": "2016 - 2020",
       "description": "Tata Consultancy Services Limited is a multinational IT company. Having offices across 46 countries.  TCS has 400k+ employees worldwide earning 20 billion $+ as annual revenue, here I work as a software engineer where I develop web applications for various clients.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelancer.jpg"
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freelancer.jpg"
     },
     {
       "id": 3,
@@ -27,7 +27,7 @@
       "companyWebsite": "https://www.google.com/search?q=xaprika",
       "timeLine": "2017 - 2018",
       "description": "Xaprika is an online food delivery startup based in Siliguri, India, I worked for them as a freelance web developer, I designed and developed their entire website and android app.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelance2.jpg"
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freelance2.jpg"
     }
   ]
 }
