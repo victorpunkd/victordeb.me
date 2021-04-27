@@ -4,30 +4,30 @@
   "jobs": [
     {
       "id": 1,
+      "companyName": "Larsen & Tubro Infotech",
+      "designation": "Senior Software Engineer",
+      "companyWebsite": "https://www.google.com/search?q=lti",
+      "timeLine": "2020 - Current",
+      "description": "LTI is the largest mid-cap IT company in India with a revenue exceeding $1 billion for 2017-18. It has a market capitalisation of Rs 29,900 crore INR, and is now the seventh largest on the market cap league table of all listed IT companies in India.",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freelance2.jpg"
+    },
+    {
+      "id": 2,
       "companyName": "Accenture",
       "designation": "Application Developer - Senior Analyst",
       "companyWebsite": "https://www.google.com/search?q=accenture",
-      "timeLine": "2020 - Present",
+      "timeLine": "2020 - 2020",
       "description": "Accenture plc, is an Irish-domiciled multinational professional services company. A Fortune Global 500 company, it has been incorporated in Dublin. In 2019, the company reported revenues of $43.2 billion, with more than 492,000 employees serving clients in more than 120 countries.",
       "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/officeFlatArt.jpg"
     },
     {
-      "id": 2,
+      "id": 3,
       "companyName": "TATA Consultancy Services",
       "designation": "Software Engineer",
       "companyWebsite": "https://www.google.com/search?q=tcs",
       "timeLine": "2016 - 2020",
       "description": "Tata Consultancy Services Limited is a multinational IT company. Having offices across 46 countries.  TCS has 400k+ employees worldwide earning 20 billion $+ as annual revenue, here I work as a software engineer where I develop web applications for various clients.",
       "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freelancer.jpg"
-    },
-    {
-      "id": 3,
-      "companyName": "Xaprika",
-      "designation": "Freelancer Web Developer",
-      "companyWebsite": "https://www.google.com/search?q=xaprika",
-      "timeLine": "2017 - 2018",
-      "description": "Xaprika is an online food delivery startup based in Siliguri, India, I worked for them as a freelance web developer, I designed and developed their entire website and android app.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freelance2.jpg"
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 .jobHeading {
   font-family: "Nunito", sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
   color: purple;
   font-weight: 400;
 }
@@ -16,7 +16,7 @@
 .timeline {
   clear: both;
   font-family: "Nunito", sans-serif;
-  font-size: 1vw;
+  font-size: 0.7vw;
   color: black;
   border-bottom: 4px solid purple;
 }
