@@ -6,26 +6,26 @@ export class Home extends Component {
     super();
     this.state = {
       data: [],
-      isLoaded: false
+      isLoaded: false,
     };
   }
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/Home.json"
+      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/Home.json"
     )
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
-        data => {
+        (data) => {
           this.setState({
             isLoaded: true,
-            data: data
+            data: data,
           });
         },
-        error => {
+        (error) => {
           this.setState({
             isLoaded: true,
-            error
+            error,
           });
         }
       );

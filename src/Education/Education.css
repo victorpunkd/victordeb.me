@@ -31,7 +31,7 @@
   width: 60%;
   min-height: 100%;
   height: 100vh;
-  background-image: url("https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/lesPaul_2.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/victordeb.me-files/images/lesPaul_2.jpg");
   background-position: center;
   background-size: cover;
 }

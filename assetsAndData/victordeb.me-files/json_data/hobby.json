@@ -1,10 +1,10 @@
 {
   "tagLine": "Things we do for love",
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/elvis.jpg",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/elvis.jpg",
   "hobbies": [
     {
       "id": 1,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/guitar.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/guitar.jpg",
       "hobby": "Playing Guitar",
       "description": "I have been playing guitar for a long time now, one of my favorite pass time when I am relaxing.",
       "buttonText": "Watch Video",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/drums.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/drums.jpg",
       "hobby": "Playing Drums",
       "description": "Used to be a drummer in a band, had this dream to be the best drummer in the world.",
       "buttonText": "Watch Video",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/music.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/music.jpg",
       "hobby": "Listening to Music",
       "description": "Music is like coffee to me, it makes me go on. Will work for 8 hours straight if the music plays on and on.",
       "buttonText": "My Favorites",
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/coding.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/coding.jpg",
       "hobby": "Coding",
       "description": "Once I learned to code, I fell in love with it. Coding and brainstorming are what I do all day.",
       "buttonText": "My Github",
@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/Books.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/Books.jpg",
       "hobby": "Reading Books",
       "description": "I am a big fan of thriller and adventure novels, Dan Brown and J.K Rowling are 2 of my favorites.",
       "buttonText": "See my Collection",
@@ -44,7 +44,7 @@
     },
     {
       "id": 6,
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/movie.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/movie.jpg",
       "hobby": "Watching Movies",
       "description": "I am a big movie buff, soon I will start a movie recommending website, need a suggestion ask me.",
       "buttonText": "My Recomendation",

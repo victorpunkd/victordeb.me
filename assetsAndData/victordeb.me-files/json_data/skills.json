@@ -1,11 +1,11 @@
 {
   "tagLine": "My current tech stack, always pushing new items to the stack",
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/freddie.jpg",
+  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freddie.jpg",
   "skills": [
     {
       "id": 1,
       "techName": "React JS",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/react_logo.png",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png",
       "firstColor": "#53d2fa",
       "secondColor": "#d6f1f9",
       "percentage": "70%"
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "techName": "Javascript",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/javascript_logo.png",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/javascript_logo.png",
       "firstColor": "#f0db4f",
       "secondColor": "#f7e98a",
       "percentage": "70%"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "techName": "jQuery",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/jquery_logo.gif",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif",
       "firstColor": "#0868ab",
       "secondColor": "#3aa8f4",
       "percentage": "90%"
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "techName": "AWS",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/aws_logo.png",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png",
       "firstColor": "#ff9900",
       "secondColor": "#f9c77c",
       "percentage": "50%"
@@ -37,7 +37,7 @@
     {
       "id": 5,
       "techName": "HTML5",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/html_logo.png",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/html_logo.png",
       "firstColor": "#e54c21",
       "secondColor": "#f48566",
       "percentage": "80%"
@@ -45,7 +45,7 @@
     {
       "id": 6,
       "techName": "CSS3",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/css_logo.png",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/css_logo.png",
       "firstColor": "#0868ab",
       "secondColor": "#68b9f2",
       "percentage": "60%"
@@ -53,7 +53,7 @@
     {
       "id": 7,
       "techName": "Redux",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/images/redux_logo.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/redux_logo.jpg",
       "firstColor": "#794bbb",
       "secondColor": "#b791ed",
       "percentage": "70%"

@@ -14,7 +14,7 @@ export class Portfolio extends Component {
 
   componentDidMount() {
     fetch(
-      "https://s3.ap-south-1.amazonaws.com/victordeb.me-staticfiles/json_data/portfolio.json"
+      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/portfolio.json"
     )
       .then((res) => res.json())
       .then(
