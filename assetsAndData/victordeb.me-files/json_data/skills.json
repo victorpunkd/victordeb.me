@@ -1,35 +1,35 @@
 {
   "tagLine": "My current tech stack, always pushing new items to the stack",
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freddie.jpg",
+  "sideImage": "https://victordeb.s3.eu-north-1.amazonaws.com/images/freddie.jpg",
   "skills": [
     {
       "id": 1,
       "techName": "React JS",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/react_logo.png",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/react_logo.png",
       "firstColor": "#53d2fa",
       "secondColor": "#d6f1f9",
-      "percentage": "70%"
+      "percentage": "100%"
     },
     {
       "id": 2,
       "techName": "Javascript",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/javascript_logo.png",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/javascript_logo.png",
       "firstColor": "#f0db4f",
       "secondColor": "#f7e98a",
-      "percentage": "70%"
+      "percentage": "90%"
     },
     {
       "id": 3,
       "techName": "jQuery",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/jquery_logo.gif",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/jquery_logo.gif",
       "firstColor": "#0868ab",
       "secondColor": "#3aa8f4",
-      "percentage": "90%"
+      "percentage": "10%"
     },
     {
       "id": 4,
       "techName": "AWS",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/aws_logo.png",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/aws_logo.png",
       "firstColor": "#ff9900",
       "secondColor": "#f9c77c",
       "percentage": "50%"
@@ -37,7 +37,7 @@
     {
       "id": 5,
       "techName": "HTML5",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/html_logo.png",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/html_logo.png",
       "firstColor": "#e54c21",
       "secondColor": "#f48566",
       "percentage": "80%"
@@ -45,39 +45,32 @@
     {
       "id": 6,
       "techName": "CSS3",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/css_logo.png",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/css_logo.png",
       "firstColor": "#0868ab",
       "secondColor": "#68b9f2",
-      "percentage": "60%"
+      "percentage": "80%"
     },
     {
       "id": 7,
       "techName": "Redux",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/redux_logo.jpg",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
       "firstColor": "#794bbb",
       "secondColor": "#b791ed",
-      "percentage": "70%"
+      "percentage": "90%"
     }
   ],
   "labels": [
-    "Q3 2016",
-    "Q4 2016",
-    "Q1 2017",
-    "Q2 2017",
-    "Q3 2017",
-    "Q4 2017",
-    "Q1 2018",
-    "Q2 2018",
-    "Q3 2018",
-    "Q4 2018",
-    "Q1 2019",
-    "Q2 2019",
-    "Q3 2019",
-    "Q4 2019",
-    "Q1 2020",
-    "Q2 2020",
-    "Q3 2020",
-    "Q4 2020"
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
   ],
   "lineData": [
     {
@@ -104,13 +97,6 @@
         65,
         75,
         80,
-        95,
-        99,
-        99,
-        100,
-        100,
-        100,
-        100,
         100
       ]
     },
@@ -138,14 +124,7 @@
         60,
         65,
         75,
-        70,
-        90,
-        80,
-        90,
-        100,
-        100,
-        100,
-        100
+        90
       ]
     },
     {
@@ -172,13 +151,7 @@
         80,
         90,
         60,
-        60,
-        70,
-        70,
-        80,
-        90,
-        100,
-        100
+        60
       ]
     },
     {
@@ -205,14 +178,7 @@
         60,
         65,
         70,
-        75,
-        80,
-        85,
-        95,
-        95,
-        100,
-        100,
-        100
+        95
       ]
     },
     {
@@ -239,14 +205,7 @@
         28,
         30,
         35,
-        40,
-        60,
-        70,
-        80,
-        90,
-        80,
-        80,
-        80
+        60
       ]
     },
     {
@@ -273,14 +232,7 @@
         40,
         30,
         20,
-        10,
-        5,
-        5,
-        0,
-        0,
-        0,
-        0,
-        0
+        10
       ]
     },
     {
@@ -307,14 +259,7 @@
         0,
         10,
         20,
-        30,
-        40,
-        50,
-        60,
-        70,
-        80,
-        90,
-        100
+        30
       ]
     }
   ]

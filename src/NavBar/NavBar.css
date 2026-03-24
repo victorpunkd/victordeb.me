@@ -1,7 +1,8 @@
 .navBar {
   background-color: #30364a;
   box-shadow: 2px 0px 20px grey;
-  width: 5vw;
+  /* min-width: 105px; */
+  width: 100px;
   padding: 0% 0.3%;
   position: relative;
 }
@@ -46,8 +47,8 @@
 
 .icon {
   margin-top: 10px;
-  width: 4vw;
-  height: 8vh;
+  width: 80px;
+  /* height: 8vh; */
 }
 
 .menuItem {
@@ -100,8 +101,7 @@
   }
   .icon {
     margin-top: 10px;
-    width: 13vw;
-    height: 9vh;
+    width: 90px;
   }
 }
 
@@ -126,7 +126,7 @@
   }
   .icon {
     margin-top: 10px;
-    width: 13vw;
-    height: 7vh;
+    width: 60px;
+    /* height: 7vh; */
   }
 }

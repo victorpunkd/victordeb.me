@@ -2,14 +2,14 @@
   "name": "victordeb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://victordeb.me/",
+  "homepage": "https://victordeb.me",
   "dependencies": {
     "chart.js": "^2.7.3",
     "react": "^16.8.2",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.8.2",
     "react-ga": "^3.1.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

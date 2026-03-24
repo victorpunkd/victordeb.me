@@ -30,7 +30,7 @@
   width: 80%;
   min-height: 100%;
   height: 100vh;
-  background-image: url("https://s3.us-east-2.amazonaws.com/victordeb.me-files/images/lenon.jpg");
+  background-image: url("https://victordeb.s3.eu-north-1.amazonaws.com/images/lenon.jpg");
   background-position: center;
   background-size: cover;
 }

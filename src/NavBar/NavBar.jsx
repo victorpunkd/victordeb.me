@@ -83,7 +83,7 @@ export class NavBar extends Component {
                 Techs
               </span>
             </span>
-            <span
+            {/* <span
               id="portfolio"
               onClick={() => this.props.navOptionClicked("Portfolio")}
               className={`w3-bar-item menuItem ${
@@ -99,8 +99,8 @@ export class NavBar extends Component {
               >
                 Portfolio
               </span>
-            </span>
-            {/*<span
+            </span> */}
+            <span
               id="career"
               onClick={() => this.props.navOptionClicked("Career")}
               className={`w3-bar-item menuItem ${
@@ -116,7 +116,7 @@ export class NavBar extends Component {
               >
                 Experience
               </span>
-            </span>*/}
+            </span>
             <span
               id="education"
               onClick={() => this.props.navOptionClicked("Education")}

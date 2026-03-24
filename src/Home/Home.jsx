@@ -11,9 +11,7 @@ export class Home extends Component {
   }
 
   componentDidMount() {
-    fetch(
-      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/Home.json"
-    )
+    fetch("https://victordeb.s3.eu-north-1.amazonaws.com/json_data/home.json")
       .then((res) => res.json())
       .then(
         (data) => {
@@ -114,7 +112,7 @@ export class Home extends Component {
             </div>
           </div>
           <div className="w3-half  animated slideInRight w3-hide-small w3-hide-medium">
-            <div className="sideBackgroundImage w3-right" />
+            <div className="sideBackgroundImage tr w3-right" />
           </div>
         </div>
       );

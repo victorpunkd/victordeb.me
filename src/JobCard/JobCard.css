@@ -31,8 +31,8 @@
 }
 
 .images {
-  width: 9vw;
-  height: 9vw;
+  width: 175px;
+  /* height: 9vw; */
 }
 
 /* All media queries */

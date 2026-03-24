@@ -13,7 +13,7 @@ export class Experience extends Component {
 
   componentDidMount() {
     fetch(
-      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/experience.json"
+      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/experience.json",
     )
       .then((res) => res.json())
       .then(
@@ -28,7 +28,7 @@ export class Experience extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
   }
 

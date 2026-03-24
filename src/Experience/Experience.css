@@ -29,13 +29,30 @@
 
 .jobCards {
   margin-left: 6%;
+  max-height: 76vh;
+  overflow-y: auto;
+  padding: 25px 25px;
+}
+
+.jobCards::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+.jobCards::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
 }
 
 .sideImageExp {
   width: 80%;
   min-height: 100%;
   height: 100vh;
-  background-image: url("https://s3.us-east-2.amazonaws.com/victordeb.me-files/images/SG.jpg");
+  background-image: url("https://victordeb.s3.eu-north-1.amazonaws.com/images/SG.png");
   background-position: center;
   background-size: cover;
 }

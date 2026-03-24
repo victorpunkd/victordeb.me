@@ -1,33 +1,51 @@
 {
   "tagLine": "Businesses I have worked with",
-  "sideImage": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/SG.jpg",
+  "sideImage": "https://victordeb.s3.eu-north-1.amazonaws.com/images/SG.png",
   "jobs": [
     {
       "id": 1,
-      "companyName": "Larsen & Tubro Infotech",
+      "companyName": "Nvish",
       "designation": "Senior Software Engineer",
-      "companyWebsite": "https://www.google.com/search?q=lti",
-      "timeLine": "2020 - Current",
-      "description": "LTI is the largest mid-cap IT company in India with a revenue exceeding $1 billion for 2017-18. It has a market capitalisation of Rs 29,900 crore INR, and is now the seventh largest on the market cap league table of all listed IT companies in India.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelance2.jpg"
+      "companyWebsite": "https://www.google.com/search?q=Nvish",
+      "timeLine": "2024 - 2026",
+      "description": "Worked on a customer community portal where users could ask questions, other users could reply, and moderators managed content. Implemented features for upvoting queries, moderating discussions, and publishing newsletters to keep the community informed and engaged.",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/experience1.png"
     },
     {
       "id": 2,
+      "companyName": "Puresoftware",
+      "designation": "Senior Software Engineer",
+      "companyWebsite": "https://www.google.com/search?q=Puresoftware",
+      "timeLine": "2022 - 2024",
+      "description": "Worked on an ecommerce client project building a Shopify-like platform to unify multiple websites. Enabled users to upload products once and distribute them across sites while sharing common components and supporting custom design variations for different platforms.",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/experience2.png"
+    },
+    {
+      "id": 3,
+      "companyName": "Larsen & Tubro Infotech",
+      "designation": "Senior Software Engineer",
+      "companyWebsite": "https://www.google.com/search?q=lti",
+      "timeLine": "2020 - 2022",
+      "description": "Worked on multiple client projects using React and AG Grid to build interactive tables and charts. Developed features to display and analyze real time analytical data, enabling business users to monitor metrics, explore datasets, and make informed decisions.",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/experience3.png"
+    },
+    {
+      "id": 4,
       "companyName": "Accenture",
       "designation": "Application Developer - Senior Analyst",
       "companyWebsite": "https://www.google.com/search?q=accenture",
       "timeLine": "2020 - 2020",
-      "description": "Accenture plc, is an Irish-domiciled multinational professional services company. A Fortune Global 500 company, it has been incorporated in Dublin. In 2019, the company reported revenues of $43.2 billion, with more than 492,000 employees serving clients in more than 120 countries.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/officeFlatArt.jpg"
+      "description": "Worked as an accessibility feature specialist for a customer facing web application built with React. Used JAWS and other accessibility testing tools to ensure compliance with standards, improve screen reader compatibility, and enhance usability for users with visual impairments.",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/experience4.png"
     },
     {
-      "id": 3,
+      "id": 5,
       "companyName": "TATA Consultancy Services",
       "designation": "Software Engineer",
       "companyWebsite": "https://www.google.com/search?q=tcs",
       "timeLine": "2016 - 2020",
-      "description": "Tata Consultancy Services Limited is a multinational IT company. Having offices across 46 countries.  TCS has 400k+ employees worldwide earning 20 billion $+ as annual revenue, here I work as a software engineer where I develop web applications for various clients.",
-      "image": "https://s3.ap-south-1.amazonaws.com/victordeb.me-files/images/freelancer.jpg"
+      "description": "Worked on .NET and React to build modern web applications for enterprise clients. Served as a team lead for two years, guiding developers and planning features while developing reliable internal analytics and visualization tools with capabilities similar to Tableau for business teams.",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/experience5.png"
     }
   ]
 }

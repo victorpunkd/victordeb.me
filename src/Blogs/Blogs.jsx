@@ -12,9 +12,7 @@ export class Blogs extends Component {
   }
 
   componentDidMount() {
-    fetch(
-      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/blogs.json"
-    )
+    fetch("https://victordeb.s3.eu-north-1.amazonaws.com/json_data/blogs.json")
       .then((res) => res.json())
       .then(
         (data) => {

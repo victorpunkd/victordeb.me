@@ -13,7 +13,7 @@ export class Education extends Component {
 
   componentDidMount() {
     fetch(
-      "https://s3.us-east-2.amazonaws.com/victordeb.me-files/json_data/education.json"
+      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/education.json"
     )
       .then((res) => res.json())
       .then(
