@@ -1,13 +1,15 @@
 .main {
   margin-top: 1%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .progressBarParent {
   font-size: 0.9vw;
   background-color: #f1f1f1;
   border-radius: 15px;
-  margin-left: 6%;
-  margin-top: 1%;
+  width: 100%;
 }
 
 .progressBarChild {
@@ -18,8 +20,8 @@
 }
 
 .logo {
-  height: 2.3vw;
-  width: 2.3vw;
+  height: 30px;
+  width: 30px;
 }
 
 /* All media queries */

@@ -50,12 +50,12 @@ export class NavBar extends Component {
           <div className="navBarItems">
             <span
               onClick={this.closeNavbar}
-              className="w3-hide-large w3-bar-item menuItem"
+              className="w3-hide-large w3-bar-item crossIconButton"
               style={{ marginTop: -10 }}
             >
               <i className="fa fa-times menuIcon" aria-hidden="true" />
             </span>
-            <span
+            <div
               id="home"
               onClick={() => this.props.navOptionClicked("Home")}
               className={`w3-bar-item menuItem ${
@@ -65,11 +65,9 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-home menuIcon" />
               </div>
-              <span className="menuName" style={{ marginLeft: -2 }}>
-                Home
-              </span>
-            </span>
-            <span
+              <span className="menuName">Home</span>
+            </div>
+            <div
               id="skills"
               onClick={() => this.props.navOptionClicked("Skills")}
               className={`w3-bar-item menuItem ${
@@ -79,11 +77,9 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-cog menuIcon" />
               </div>
-              <span className="menuName" style={{ marginLeft: -1.5 }}>
-                Techs
-              </span>
-            </span>
-            {/* <span
+              <span className="menuName">Techs</span>
+            </div>
+            {/* <div
               id="portfolio"
               onClick={() => this.props.navOptionClicked("Portfolio")}
               className={`w3-bar-item menuItem ${
@@ -99,8 +95,8 @@ export class NavBar extends Component {
               >
                 Portfolio
               </span>
-            </span> */}
-            <span
+            </div> */}
+            <div
               id="career"
               onClick={() => this.props.navOptionClicked("Career")}
               className={`w3-bar-item menuItem ${
@@ -110,14 +106,9 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-industry menuIcon" />
               </div>
-              <span
-                className="menuName"
-                style={{ marginLeft: "calc(-12px - 0.2vw)" }}
-              >
-                Experience
-              </span>
-            </span>
-            <span
+              <span className="menuName">Experience</span>
+            </div>
+            <div
               id="education"
               onClick={() => this.props.navOptionClicked("Education")}
               className={`w3-bar-item menuItem ${
@@ -127,14 +118,9 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-graduation-cap menuIcon" />
               </div>
-              <span
-                className="menuName"
-                style={{ marginLeft: "calc(-9px - 0.2vw)" }}
-              >
-                Education
-              </span>
-            </span>
-            {/*<span
+              <span className="menuName">Education</span>
+            </div>
+            {/*<div
               id="blogs"
              onClick={() => this.props.navOptionClicked("Blogs")}
               className={`w3-bar-item menuItem ${
@@ -146,7 +132,7 @@ export class NavBar extends Component {
               </div>
               <span className="menuName">Blogs</span>
             </span>*/}
-            <span
+            <div
               id="hobby"
               onClick={() => this.props.navOptionClicked("Hobbies")}
               className={`w3-bar-item menuItem ${
@@ -156,11 +142,9 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-music menuIcon" aria-hidden="true" />
               </div>
-              <span className="menuName" style={{ marginLeft: -7 }}>
-                Hobbies
-              </span>
-            </span>
-            <span
+              <span className="menuName">Hobbies</span>
+            </div>
+            <div
               id="contact"
               onClick={() => this.props.navOptionClicked("Contact")}
               className={`w3-bar-item menuItem ${
@@ -170,10 +154,8 @@ export class NavBar extends Component {
               <div>
                 <i className="fa fa-phone menuIcon" aria-hidden="true" />
               </div>
-              <span className="menuName" style={{ marginLeft: -7 }}>
-                Contact
-              </span>
-            </span>
+              <span className="menuName">Contact</span>
+            </div>
           </div>
         </nav>
       </>

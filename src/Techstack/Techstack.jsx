@@ -18,7 +18,7 @@ export class Techstack extends Component {
     return (
       <div className="w3-row main">
         <img
-          alt="educationimage"
+          alt="tech-stack-image"
           className="logo w3-quarter"
           src={this.props.image}
         />
@@ -27,7 +27,7 @@ export class Techstack extends Component {
             className="progressBarChild  w3-card"
             style={{
               width: this.state.barWidth,
-              backgroundImage: `linear-gradient(to right, ${this.props.firstColor}, ${this.props.secondColor})`
+              backgroundImage: `linear-gradient(to right, ${this.props.firstColor}, ${this.props.secondColor})`,
             }}
           >
             {this.state.barWidth}

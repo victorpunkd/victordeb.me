@@ -20,6 +20,22 @@
     },
     {
       "id": 3,
+      "techName": "Next JS",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
+      "firstColor": "#794bbb",
+      "secondColor": "#b791ed",
+      "percentage": "90%"
+    },
+    {
+      "id": 4,
+      "techName": "Redux",
+      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
+      "firstColor": "#794bbb",
+      "secondColor": "#b791ed",
+      "percentage": "90%"
+    },
+    {
+      "id": 5,
       "techName": "jQuery",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/jquery_logo.gif",
       "firstColor": "#0868ab",
@@ -27,7 +43,7 @@
       "percentage": "10%"
     },
     {
-      "id": 4,
+      "id": 6,
       "techName": "AWS",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/aws_logo.png",
       "firstColor": "#ff9900",
@@ -35,7 +51,7 @@
       "percentage": "50%"
     },
     {
-      "id": 5,
+      "id": 7,
       "techName": "HTML5",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/html_logo.png",
       "firstColor": "#e54c21",
@@ -43,20 +59,12 @@
       "percentage": "80%"
     },
     {
-      "id": 6,
+      "id": 8,
       "techName": "CSS3",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/css_logo.png",
       "firstColor": "#0868ab",
       "secondColor": "#68b9f2",
       "percentage": "80%"
-    },
-    {
-      "id": 7,
-      "techName": "Redux",
-      "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
-      "firstColor": "#794bbb",
-      "secondColor": "#b791ed",
-      "percentage": "90%"
     }
   ],
   "labels": [
