@@ -23,6 +23,11 @@ export class NavBar extends Component {
     this.setState({ hideSmallMenuBar: true });
   };
 
+  handleNavOptionClick = (navItemClicked) => {
+    this.props.navOptionClicked(navItemClicked);
+    this.setState({ hideSmallMenuBar: true });
+  };
+
   render() {
     return (
       <>
@@ -57,7 +62,7 @@ export class NavBar extends Component {
             </span>
             <div
               id="home"
-              onClick={() => this.props.navOptionClicked("Home")}
+              onClick={() => this.handleNavOptionClick("Home")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Home" ? "active" : ""
               }`}
@@ -69,7 +74,7 @@ export class NavBar extends Component {
             </div>
             <div
               id="skills"
-              onClick={() => this.props.navOptionClicked("Skills")}
+              onClick={() => this.handleNavOptionClick("Skills")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Skills" ? "active" : ""
               }`}
@@ -98,7 +103,7 @@ export class NavBar extends Component {
             </div> */}
             <div
               id="career"
-              onClick={() => this.props.navOptionClicked("Career")}
+              onClick={() => this.handleNavOptionClick("Career")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Career" ? "active" : ""
               }`}
@@ -110,7 +115,7 @@ export class NavBar extends Component {
             </div>
             <div
               id="education"
-              onClick={() => this.props.navOptionClicked("Education")}
+              onClick={() => this.handleNavOptionClick("Education")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Education" ? "active" : ""
               }`}
@@ -134,7 +139,7 @@ export class NavBar extends Component {
             </span>*/}
             <div
               id="hobby"
-              onClick={() => this.props.navOptionClicked("Hobbies")}
+              onClick={() => this.handleNavOptionClick("Hobbies")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Hobbies" ? "active" : ""
               }`}
@@ -146,7 +151,7 @@ export class NavBar extends Component {
             </div>
             <div
               id="contact"
-              onClick={() => this.props.navOptionClicked("Contact")}
+              onClick={() => this.handleNavOptionClick("Contact")}
               className={`w3-bar-item menuItem ${
                 this.props.activeSection === "Contact" ? "active" : ""
               }`}
