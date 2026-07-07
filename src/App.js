@@ -10,6 +10,7 @@ import Blogs from "./Blogs/Blogs";
 import Hobbies from "./Hobbies/Hobbies";
 import Contact from "./Contact/Contact";
 import ReactGA from "react-ga";
+import AskAboutVictor from "./AskAboutVictor/AskAboutVictor";
 
 class App extends Component {
   constructor() {
@@ -44,6 +45,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <AskAboutVictor />
         <NavBar
           activeSection={this.state.activeSection}
           navOptionClicked={this.handleNavOptionClick}
