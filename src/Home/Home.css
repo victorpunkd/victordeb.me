@@ -44,7 +44,7 @@
   border: none;
   padding: 2%;
   font-family: "Spinnaker", sans-serif;
-  transition: font-size 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
   background-image: linear-gradient(
     to right,
     #fd898e,
@@ -56,7 +56,7 @@
 }
 
 .buttonContact:hover {
-  font-size: 1.8vw;
+  transform: scale(1.1);
   box-shadow: 0px 30px 15px -20px #f4b5da;
 }
 
