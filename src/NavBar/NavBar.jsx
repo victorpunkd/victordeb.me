@@ -31,7 +31,7 @@ export class NavBar extends Component {
   render() {
     return (
       <>
-        <div className="w3-bar w3-top w3-large w3-hide-large mobileHeader">
+        <div className="w3-bar w3-top w3-large w3-hide-large mobileHeader glow">
           <button
             className="w3-bar-item w3-button w3-hover-none w3-hover-text-black hamburgerButton item"
             onClick={this.menuClick}

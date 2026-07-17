@@ -13,6 +13,8 @@
   position: relative;
   display: flex;
   align-items: center;
+  /* border-bottom: 0.2px solid #e2257d; */
+  padding-bottom: 1%;
 }
 
 .item {
@@ -21,6 +23,7 @@
 
 .item:first-child {
   text-align: left;
+  margin-top: 5px;
 }
 
 .item:nth-child(2) {
@@ -61,6 +64,27 @@
   100% {
     left: 0px;
   }
+}
+
+/* subtle glowing pulse used across navbar elements */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 0px rgba(226,37,125,0.0);
+    box-shadow: none;
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(226,37,125,0.6);
+    box-shadow: 0 0 18px rgba(226,37,125,0.15);
+  }
+  100% {
+    text-shadow: 0 0 0px rgba(226,37,125,0.0);
+    box-shadow: none;
+  }
+}
+
+/* utility class to add glow to any element */
+.glow {
+  animation: glow 2s ease-in-out infinite;
 }
 
 .navBarItems {
