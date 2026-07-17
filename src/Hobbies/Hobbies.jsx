@@ -9,6 +9,7 @@ export class Hobbies extends Component {
       data: [],
       isLoaded: false,
     };
+    this.handleWheel = this.handleWheel.bind(this);
   }
 
   componentDidMount() {
@@ -26,8 +27,19 @@ export class Hobbies extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
+    setTimeout(() => {
+      window.addEventListener("wheel", this.handleWheel);
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("wheel", this.handleWheel);
+  }
+
+  handleWheel(event) {
+    this.props.handleScrollToSection(event.deltaY, "Hobbies");
   }
 
   render() {

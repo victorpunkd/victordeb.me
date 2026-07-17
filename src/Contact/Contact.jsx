@@ -9,11 +9,12 @@ export class Contact extends Component {
       isLoaded: false,
       copyText: "Click to copy the email id",
     };
+    this.handleWheel = this.handleWheel.bind(this);
   }
 
   componentDidMount() {
     fetch(
-      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/contact.json"
+      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/contact.json",
     )
       .then((res) => res.json())
       .then(
@@ -28,8 +29,19 @@ export class Contact extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
+    setTimeout(() => {
+      window.addEventListener("wheel", this.handleWheel);
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("wheel", this.handleWheel);
+  }
+
+  handleWheel(event) {
+    this.props.handleScrollToSection(event.deltaY, "Contact");
   }
 
   copyEmail = () => {

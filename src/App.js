@@ -37,6 +37,63 @@ class App extends Component {
     });
   };
 
+  handleScrollToSection = (deltaY, currentPage) => {
+    if (deltaY > 50) {
+      switch (currentPage) {
+        case "Home":
+          this.setState({ activeSection: "Skills" });
+          break;
+        case "Skills":
+          this.setState({ activeSection: "Career" });
+          break;
+        case "Portfolio":
+          this.setState({ activeSection: "Career" });
+          break;
+        case "Career":
+          this.setState({ activeSection: "Education" });
+          break;
+        case "Education":
+          this.setState({ activeSection: "Hobbies" });
+          break;
+        case "Blogs":
+          this.setState({ activeSection: "Hobbies" });
+          break;
+        case "Hobbies":
+          this.setState({ activeSection: "Contact" });
+          break;
+        default:
+          break;
+      }
+    }
+    if (deltaY < -50) {
+      switch (currentPage) {
+        case "Contact":
+          this.setState({ activeSection: "Hobbies" });
+          break;
+        case "Hobbies":
+          this.setState({ activeSection: "Education" });
+          break;
+        case "Blogs":
+          this.setState({ activeSection: "Education" });
+          break;
+        case "Education":
+          this.setState({ activeSection: "Career" });
+          break;
+        case "Career":
+          this.setState({ activeSection: "Skills" });
+          break;
+        case "Portfolio":
+          this.setState({ activeSection: "Skills" });
+          break;
+        case "Skills":
+          this.setState({ activeSection: "Home" });
+          break;
+        default:
+          break;
+      }
+    }
+  };
+
   handleNavOptionClick = (navItemClicked) => {
     ReactGA.pageview(`/${navItemClicked.toLowerCase()}`);
     if (navItemClicked === "AskAboutVictor") {
@@ -66,15 +123,30 @@ class App extends Component {
           <Home
             contactCickedFromHome={this.handleContactCickedFromHome}
             navOptionClicked={this.handleNavOptionClick}
+            handleScrollToSection={this.handleScrollToSection}
           />
         )}
-        {this.state.activeSection === "Skills" && <Skills />}
-        {this.state.activeSection === "Portfolio" && <Portfolio />}
-        {this.state.activeSection === "Career" && <Experience />}
-        {this.state.activeSection === "Education" && <Education />}
-        {this.state.activeSection === "Blogs" && <Blogs />}
-        {this.state.activeSection === "Hobbies" && <Hobbies />}
-        {this.state.activeSection === "Contact" && <Contact />}
+        {this.state.activeSection === "Skills" && (
+          <Skills handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Portfolio" && (
+          <Portfolio handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Career" && (
+          <Experience handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Education" && (
+          <Education handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Blogs" && (
+          <Blogs handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Hobbies" && (
+          <Hobbies handleScrollToSection={this.handleScrollToSection} />
+        )}
+        {this.state.activeSection === "Contact" && (
+          <Contact handleScrollToSection={this.handleScrollToSection} />
+        )}
       </div>
     );
   }
