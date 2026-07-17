@@ -39,12 +39,14 @@ export class NavBar extends Component {
             <i className="w3-xlarge fa fa-bars " />
           </button>
           <div>
-            <img
-              alt="logo"
-              src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
-              className="icon item"
-              onClick={() => this.handleNavOptionClick("AskAboutVictor")}
-            />
+            {!this.props.isAskAboutVictorClicked && (
+              <img
+                alt="logo"
+                src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
+                className="icon item"
+                onClick={() => this.handleNavOptionClick("AskAboutVictor")}
+              />
+            )}
           </div>
           {/* <span
             className={`w3-large sideBarIdentifier ${

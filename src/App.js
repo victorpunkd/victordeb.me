@@ -118,6 +118,7 @@ class App extends Component {
         <NavBar
           activeSection={this.state.activeSection}
           navOptionClicked={this.handleNavOptionClick}
+          isAskAboutVictorClicked={this.state.isAskAboutVictorClicked}
         />{" "}
         {this.state.activeSection === "Home" && (
           <Home
