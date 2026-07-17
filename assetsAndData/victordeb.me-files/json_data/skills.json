@@ -5,6 +5,7 @@
     {
       "id": 1,
       "techName": "React JS",
+      "icon": "devicon-react-original colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/react_logo.png",
       "firstColor": "#53d2fa",
       "secondColor": "#d6f1f9",
@@ -13,6 +14,7 @@
     {
       "id": 2,
       "techName": "Javascript",
+      "icon": "devicon-javascript-plain colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/javascript_logo.png",
       "firstColor": "#f0db4f",
       "secondColor": "#f7e98a",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "techName": "Next JS",
+      "icon": "devicon-nextjs-plain colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
       "firstColor": "#794bbb",
       "secondColor": "#b791ed",
@@ -29,6 +32,7 @@
     {
       "id": 4,
       "techName": "Redux",
+      "icon": "devicon-redux-original colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/redux_logo.jpg",
       "firstColor": "#794bbb",
       "secondColor": "#b791ed",
@@ -37,6 +41,7 @@
     {
       "id": 5,
       "techName": "jQuery",
+      "icon": "devicon-jquery-plain colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/jquery_logo.gif",
       "firstColor": "#0868ab",
       "secondColor": "#3aa8f4",
@@ -45,6 +50,7 @@
     {
       "id": 6,
       "techName": "AWS",
+      "icon": "devicon-amazonwebservices-plain-wordmark colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/aws_logo.png",
       "firstColor": "#ff9900",
       "secondColor": "#f9c77c",
@@ -53,6 +59,7 @@
     {
       "id": 7,
       "techName": "HTML5",
+      "icon": "devicon-html5-plain colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/html_logo.png",
       "firstColor": "#e54c21",
       "secondColor": "#f48566",
@@ -61,6 +68,7 @@
     {
       "id": 8,
       "techName": "CSS3",
+      "icon": "devicon-css3-plain colored",
       "image": "https://victordeb.s3.eu-north-1.amazonaws.com/images/css_logo.png",
       "firstColor": "#0868ab",
       "secondColor": "#68b9f2",

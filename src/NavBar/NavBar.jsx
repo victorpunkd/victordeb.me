@@ -31,20 +31,28 @@ export class NavBar extends Component {
   render() {
     return (
       <>
-        <div className="w3-bar w3-top w3-large w3-hide-large">
+        <div className="w3-bar w3-top w3-large w3-hide-large mobileHeader">
           <button
-            className="w3-bar-item w3-button w3-hover-none w3-hover-text-black hamburgerButton"
+            className="w3-bar-item w3-button w3-hover-none w3-hover-text-black hamburgerButton item"
             onClick={this.menuClick}
           >
-            <i className="w3-xlarge fa fa-bars" />
+            <i className="w3-xlarge fa fa-bars " />
           </button>
-          <span
+          <div>
+            <img
+              alt="logo"
+              src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
+              className="icon item"
+              onClick={() => this.handleNavOptionClick("AskAboutVictor")}
+            />
+          </div>
+          {/* <span
             className={`w3-large sideBarIdentifier ${
               this.state.sideBarIdentifierVisible ? "" : "w3-hide"
             }`}
           >
             <i className="fa fa-arrow-left"></i> Here is the sidebar
-          </span>
+          </span> */}
         </div>
         <nav
           className={`w3-sidebar w3-bar-block navBar w3-xlarge animated slideInLeft w3-card w3-top w3-center w3-container  ${

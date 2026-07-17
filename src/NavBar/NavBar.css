@@ -6,6 +6,32 @@
   position: relative;
 }
 
+.mobileHeader{
+  width: 100%;
+  padding: 0% 0.3%;
+  padding-right: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+}
+
+.item:first-child {
+  text-align: left;
+}
+
+.item:nth-child(2) {
+  text-align: center;
+}
+
+.item:last-child {
+  text-align: right;
+  width: 200px;
+}
+
 .hamburgerButton {
   font-size: 4vw;
 }

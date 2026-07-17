@@ -32,7 +32,7 @@ export class Skills extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
     setTimeout(this.showImage, 1000);
   }
@@ -63,6 +63,7 @@ export class Skills extends Component {
                   {data.skills.map((skills) => (
                     <Techstack
                       key={skills.id}
+                      icon={skills.icon}
                       image={skills.image}
                       firstColor={skills.firstColor}
                       secondColor={skills.secondColor}

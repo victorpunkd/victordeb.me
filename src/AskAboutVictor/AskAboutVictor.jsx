@@ -2,11 +2,12 @@ import React from "react";
 import ReactGA from "react-ga";
 import "./AskAboutVictor.css";
 
-const AskAboutVictor = () => {
+const AskAboutVictor = ({ isAskAboutVictorClicked, handleAIChatBoxClose }) => {
   const [isChatBoxOpen, setIsChatBoxOpen] = React.useState(false);
   const [userInput, setUserInput] = React.useState("");
   const [chatHistory, setChatHistory] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(false);
+  const chatAreaRef = React.useRef(null);
 
   const handleAIResponse = async (userQuestion) => {
     setIsLoading(true);
@@ -57,6 +58,12 @@ const AskAboutVictor = () => {
   }, []);
 
   React.useEffect(() => {
+    if (chatAreaRef.current) {
+      chatAreaRef.current.scrollTop = chatAreaRef.current.scrollHeight;
+    }
+  }, [chatHistory, isChatBoxOpen]);
+
+  React.useEffect(() => {
     if (chatHistory.length > 0) {
       const lastMessage = chatHistory[chatHistory.length - 1];
       if (lastMessage.role === "user") {
@@ -75,6 +82,12 @@ const AskAboutVictor = () => {
     }
   }, [chatHistory]);
 
+  React.useEffect(() => {
+    if (isAskAboutVictorClicked) {
+      setIsChatBoxOpen(true);
+    }
+  }, [isAskAboutVictorClicked]);
+
   return (
     <div className="askAboutVictorContainer">
       {isChatBoxOpen ? (
@@ -91,14 +104,17 @@ const AskAboutVictor = () => {
             )}
             <div>
               <button
-                onClick={() => setIsChatBoxOpen(false)}
+                onClick={() => {
+                  setIsChatBoxOpen(false);
+                  handleAIChatBoxClose();
+                }}
                 className="closeChatBoxButton"
               >
                 <i class="fa fa-close"></i>
               </button>
             </div>
           </div>
-          <div className="chatBoxChatArea">
+          <div className="chatBoxChatArea" ref={chatAreaRef}>
             {chatHistory.length === 0 && (
               <>
                 <div className="chatBoxWelcomeMessage">
@@ -173,7 +189,7 @@ const AskAboutVictor = () => {
         </div>
       ) : (
         <img
-          className="popupImage"
+          className="popupImage w3-hide-small w3-hide-medium"
           src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
           alt="Victor Deb Chatbot"
           onClick={() => setIsChatBoxOpen(true)}

@@ -17,11 +17,13 @@ export class Techstack extends Component {
   render() {
     return (
       <div className="w3-row main">
-        <img
+        {/* <img
           alt="tech-stack-image"
           className="logo w3-quarter"
           src={this.props.image}
-        />
+        /> */}
+        <i class={this.props.icon} style={{ fontSize: "28px" }}></i>
+
         <div className="w3-rest progressBarParent">
           <div
             className="progressBarChild  w3-card"

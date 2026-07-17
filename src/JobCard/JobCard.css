@@ -61,6 +61,7 @@
 @media screen and (max-width: 600px) {
   .jobHeading {
     font-size: 3.5vw;
+    text-align: left;
   }
 
   .timeline {

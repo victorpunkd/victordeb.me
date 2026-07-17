@@ -17,6 +17,7 @@ class App extends Component {
     super();
     this.state = {
       activeSection: "Home",
+      isAskAboutVictorClicked: false,
     };
   }
 
@@ -37,21 +38,35 @@ class App extends Component {
   };
 
   handleNavOptionClick = (navItemClicked) => {
-    this.setState({
-      activeSection: navItemClicked,
-    });
+    ReactGA.pageview(`/${navItemClicked.toLowerCase()}`);
+    if (navItemClicked === "AskAboutVictor") {
+      this.setState({
+        isAskAboutVictorClicked: true,
+      });
+    } else
+      this.setState({
+        activeSection: navItemClicked,
+      });
   };
 
   render() {
     return (
       <div className="App">
-        <AskAboutVictor />
+        <AskAboutVictor
+          isAskAboutVictorClicked={this.state.isAskAboutVictorClicked}
+          handleAIChatBoxClose={() =>
+            this.setState({ isAskAboutVictorClicked: false })
+          }
+        />
         <NavBar
           activeSection={this.state.activeSection}
           navOptionClicked={this.handleNavOptionClick}
         />{" "}
         {this.state.activeSection === "Home" && (
-          <Home contactCickedFromHome={this.handleContactCickedFromHome} />
+          <Home
+            contactCickedFromHome={this.handleContactCickedFromHome}
+            navOptionClicked={this.handleNavOptionClick}
+          />
         )}
         {this.state.activeSection === "Skills" && <Skills />}
         {this.state.activeSection === "Portfolio" && <Portfolio />}
