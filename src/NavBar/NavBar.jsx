@@ -31,7 +31,7 @@ export class NavBar extends Component {
   render() {
     return (
       <>
-        <div className="w3-bar w3-top w3-large w3-hide-large mobileHeader">
+        <div className="w3-bar w3-top w3-large w3-hide-large mobileHeader glow">
           <button
             className="w3-bar-item w3-button w3-hover-none w3-hover-text-black hamburgerButton item"
             onClick={this.menuClick}
@@ -39,12 +39,14 @@ export class NavBar extends Component {
             <i className="w3-xlarge fa fa-bars " />
           </button>
           <div>
-            <img
-              alt="logo"
-              src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
-              className="icon item"
-              onClick={() => this.handleNavOptionClick("AskAboutVictor")}
-            />
+            {!this.props.isAskAboutVictorClicked && (
+              <img
+                alt="logo"
+                src="https://victordeb.s3.eu-north-1.amazonaws.com/images/askAI.png"
+                className="icon item"
+                onClick={() => this.handleNavOptionClick("AskAboutVictor")}
+              />
+            )}
           </div>
           {/* <span
             className={`w3-large sideBarIdentifier ${

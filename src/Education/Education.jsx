@@ -9,11 +9,12 @@ export class Education extends Component {
       data: [],
       isLoaded: false,
     };
+    this.handleWheel = this.handleWheel.bind(this);
   }
 
   componentDidMount() {
     fetch(
-      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/education.json"
+      "https://victordeb.s3.eu-north-1.amazonaws.com/json_data/education.json",
     )
       .then((res) => res.json())
       .then(
@@ -28,8 +29,19 @@ export class Education extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
+    setTimeout(() => {
+      window.addEventListener("wheel", this.handleWheel);
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("wheel", this.handleWheel);
+  }
+
+  handleWheel(event) {
+    this.props.handleScrollToSection(event.deltaY, "Education");
   }
 
   render() {

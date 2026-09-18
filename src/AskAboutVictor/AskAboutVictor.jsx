@@ -44,7 +44,8 @@ const AskAboutVictor = ({ isAskAboutVictorClicked, handleAIChatBoxClose }) => {
         ...prevHistory,
         {
           role: "Victor AI Assistant",
-          content: "I don't have that information in Victor's portfolio.",
+          content:
+            "Sorry the API failed to respond. Its already reported. Please try again later.",
         },
       ]);
     } finally {

@@ -11,6 +11,7 @@ export class Skills extends Component {
       data: [],
       isLoaded: false,
     };
+    this.handleWheel = this.handleWheel.bind(this);
   }
 
   showImage = () => {
@@ -35,6 +36,17 @@ export class Skills extends Component {
         },
       );
     setTimeout(this.showImage, 1000);
+    setTimeout(() => {
+      window.addEventListener("wheel", this.handleWheel);
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("wheel", this.handleWheel);
+  }
+
+  handleWheel(event) {
+    this.props.handleScrollToSection(event.deltaY, "Skills");
   }
 
   render() {

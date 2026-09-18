@@ -8,6 +8,9 @@ export class Home extends Component {
       data: [],
       isLoaded: false,
     };
+    this.handleScroll = this.handleScroll.bind(this);
+    this.handleWheel = this.handleWheel.bind(this);
+    this.bottomReachedCount = 0;
   }
 
   componentDidMount() {
@@ -25,8 +28,30 @@ export class Home extends Component {
             isLoaded: true,
             error,
           });
-        }
+        },
       );
+    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("wheel", this.handleWheel);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("wheel", this.handleWheel);
+  }
+
+  handleWheel(event) {
+    this.props.handleScrollToSection(event.deltaY, "Home");
+  }
+
+  handleScroll() {
+    const scrollTop = window.scrollY || window.pageYOffset;
+    const docHeight = document.documentElement.scrollHeight;
+    const winHeight = window.innerHeight;
+    const isNowAtBottom = scrollTop + winHeight >= docHeight + 10; // small tolerance
+
+    if (isNowAtBottom) {
+      // this.props.navOptionClicked("Skills");
+    }
   }
 
   render() {
