@@ -16,6 +16,7 @@ export class EducationCard extends Component {
           <div className="w3-justify educationDescription">
             {this.props.description}{" "}
           </div>
+          <div className="buttonConvoContainer">
           <a
             href={this.props.certificate}
             target="_blank"
@@ -24,6 +25,7 @@ export class EducationCard extends Component {
           >
             See Convocation
           </a>
+          </div>
         </div>
       </div>
     );

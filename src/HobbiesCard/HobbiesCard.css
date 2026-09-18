@@ -1,6 +1,5 @@
 .image {
-  height: 18vh;
-  width: 9vw;
+  height: 150px;
 }
 
 .hobby {
@@ -16,7 +15,7 @@
 
 .buttonHobbie {
   margin-top: 4%;
-  border-radius: 0.5vw;
+  border-radius: 10px;
   font-size: 1vw;
   cursor: pointer;
   color: white;

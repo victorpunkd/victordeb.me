@@ -133,7 +133,7 @@ export class NavBar extends Component {
               </div>
               <span className="menuName">Education</span>
             </div>
-            {/*<div
+            {/* <div
               id="blogs"
              onClick={() => this.props.navOptionClicked("Blogs")}
               className={`w3-bar-item menuItem ${
@@ -144,7 +144,7 @@ export class NavBar extends Component {
                 <i className="fa fa-newspaper-o menuIcon" aria-hidden="true" />
               </div>
               <span className="menuName">Blogs</span>
-            </span>*/}
+            </div> */}
             <div
               id="hobby"
               onClick={() => this.handleNavOptionClick("Hobbies")}

@@ -39,7 +39,7 @@
   width: 80%;
   min-height: 100%;
   height: 100vh;
-  background-image: url("https://victordeb.s3.eu-north-1.amazonaws.com/images/elvis.jpg");
+  background-image: url("https://victordeb.s3.eu-north-1.amazonaws.com/images/elvis.png");
   background-position: center;
   background-size: cover;
 }

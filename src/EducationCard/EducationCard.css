@@ -32,10 +32,15 @@
   margin-bottom: 4%;
 }
 
+.buttonConvoContainer{
+  display: flex;
+  justify-content: start;
+}
+
 .buttonConvo {
   text-decoration: none;
-  margin-left: -42%;
-  border-radius: 6px;
+  /* margin-left: -42%; */
+  border-radius: 10px;
   font-size: 1.4vw;
   cursor: pointer;
   color: white;

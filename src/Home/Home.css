@@ -38,7 +38,7 @@
 .buttonContact {
   font-size: 1.7vw;
   margin-top: 4%;
-  border-radius: 0.5vw;
+  border-radius: 10px;
   cursor: pointer;
   color: white;
   border: none;

@@ -102,11 +102,11 @@
 }
 
 .menuIcon {
-  font-size: 2vw;
+  font-size: 35px;
 }
 
 .menuName {
-  font-size: 0.9vw;
+  font-size: 12px;
 }
 
 .active {
@@ -150,7 +150,7 @@
 @media screen and (max-width: 600px) {
   .navBar {
     box-shadow: 2px 0px 20px grey;
-    width: 70px;
+    width: 95px;
     padding: 0% 0.3%;
   }
 
